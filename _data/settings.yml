@@ -3,8 +3,8 @@ menu:
 - {name: 'Contacts',  url: 'contacts'}
 
 social:
-- {icon: 'twitter', link:    'https://twitter.com/paululele'}
-- {icon: 'instagram', link:  'https://instagram.com/paululele'}
+- {icon: 'twitter', link:    'https://twitter.com/'}
+- {icon: 'instagram', link:  'https://instagram.com/'}
 
 
 # Customize site text
