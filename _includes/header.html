@@ -1,0 +1,25 @@
+<header class="fixed-top d-flex align-items-center" id="header">
+  <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+          <h1><a href="{{ site.github.url }}/">{{ site.title }}.<span class="accent">ua</span></a></h1>
+      </div>
+
+      <nav class="navbar" id="navbar">
+        <ul>
+          {% for item in site.data.settings.menu %}
+            {% assign myvar = item.url | prepend: '/' %}
+            
+            {% if page.url == myvar %}
+              <li><a class="nav-link scrollto active" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a></li>
+            {% else %}
+              <li><a class="nav-link scrollto" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a></li>
+            {% endif %}
+
+            {% endfor %}
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+  </div>
+</header>
