@@ -22,9 +22,9 @@ en:
 
   laboratory-internships:
     title: "Laboratory internships"
-    description: "If you are interested in joining the team, do not hesitate to send us an e-mail stating your field of interest and a CV.
-                  We may have other open positions than those advertised below. You can directly contact one of the laboratory members. 
-                  Our team is pluridisciplinary and we welcome applicants with different profiles and expertises (biology, computer science, medicine …)."
+    description: "If you are interested in joining the team, do not hesitate to send us an email indicating your area of interest and attach a resume.
+                  We may have other vacancies than those announced below. You can also contact one of the lab members directly. 
+                  Our team is multidisciplinary, and we welcome candidates with different profiles and knowledge (biology, computer science, medicine…)."
     internships:
       - title: "Analysis of data on full-genome sequencing of microbiome samples collected in urban environments and modeling the interaction of communities of microorganisms"
         description: "The work involves the analysis of new generation sequencing data and the application of machine learning methods to study the diversity of communities of microorganisms present on the surfaces of objects in the urban environment (handrails in public transport, passenger seats, etc.)."
