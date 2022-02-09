@@ -14,7 +14,7 @@
                               {% if item.focus == true %}focused {% else %}nav-link{% endif %}
                               scrollto
                               {% if page.url == baseurl %}active{% endif %}'
-                       href='{{ site.github.url }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
+                       href='{{ site.github.url }}/{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
                         {{ item.name }}
                     </a>
                 </li>
@@ -28,6 +28,7 @@
                             {% if lang[0] != site.active_lang %}
                                 <a href="{{site.github.url}}{% if lang[0] != site.default_lang %}{{ lang[0] }}{% endif %}{{ page.url }}">
                                     {{ language.icon }}
+                                    {% assign site.active_lang = language.icon %}
                                 </a>
                             {% endif %}
                         {% endfor %}
