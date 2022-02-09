@@ -1,25 +1,44 @@
 <header class="fixed-top d-flex align-items-center" id="header">
-  <div class="container d-flex align-items-center justify-content-between">
+    <div class="container d-flex align-items-center justify-content-between">
 
-      <div class="logo">
-          <h1><a href="{{ site.github.url }}/">{{ site.title }}.<span class="accent">ua</span></a></h1>
-      </div>
+        <div class="logo">
+            <h1><a href="{{ site.github.url }}/">{{ site.title }}.<span class="accent">ua</span></a></h1>
+        </div>
 
-      <nav class="navbar" id="navbar">
-        <ul>
-          {% for item in site.data.settings.menu %}
-            {% assign myvar = item.url | prepend: '/' %}
-            
-            {% if page.url == myvar %}
-              <li><a class="nav-link scrollto active" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a></li>
-            {% else %}
-              <li><a class="nav-link scrollto" href="{{ site.github.url }}/{{ item.url }}">{{ item.name }}</a></li>
-            {% endif %}
+        <nav class="navbar" id="navbar">
+            <ul>
+                {% for item in site.data.settings.menu[site.active_lang] %}
+                    {% assign baseurl = item.url | prepend: '/' %}
+                <li>
+                    <a class='
+                              {% if item.focus == true %}focused {% else %}nav-link{% endif %}
+                              scrollto
+                              {% if page.url == baseurl %}active{% endif %}'
+                       href='{{ site.github.url }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
+                        {{ item.name }}
+                    </a>
+                </li>
 
-            {% endfor %}
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
+                {% endfor %}
+                <li class="dropdown">
+                    <a><span>{{site.data.languages[site.active_lang].icon}}</span> <i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        {% for lang in site.data.languages %}
+                            {% assign language = lang[1] %}
+                            {% if lang[0] != site.active_lang %}
+                                <a href="{{site.github.url}}{% if lang[0] != site.default_lang %}{{ lang[0] }}{% endif %}{{ page.url }}">
+                                    {{ language.icon }}
+                                </a>
+                            {% endif %}
+                        {% endfor %}
 
-  </div>
+
+                    </ul>
+
+                </li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+
+    </div>
 </header>

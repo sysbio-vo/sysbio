@@ -1,0 +1,9 @@
+---
+layout: markdown
+title: 404
+share: true
+permalink: /404.html
+---
+# 404
+
+Page not found! :(

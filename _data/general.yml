@@ -1,0 +1,16 @@
+en:
+  contacts:
+    name: "System Biology Group"
+    description: "We are team of talented scientists making bio research"
+    institute: "Institute of Molecular Biology and Genetics"
+    address: "150, Academician Zabolotny street,<br/> Kyiv, Ukraine, 03680"
+    email: "admin@sysbio.org.ua"
+    phone: "+38 (044) 526-11-69"
+ua:
+  contacts:
+    name: "Група системної біології"
+    description: "Ми команда талановитих вчених, які займаються біодослідженнями"
+    institute: "Інститут молекулярної біології та генетики"
+    address: "вул. Академіка Заболотного, 150,<br/> Київ, Україна, 03680"
+    email: "admin@sysbio.org.ua"
+    phone: "+38 (044) 526-11-69"

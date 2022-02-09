@@ -1,0 +1,56 @@
+---
+layout: page
+title: "Publications"
+permalink: /publications
+---
+{% assign page-data = site.data.pages.publications[site.active_lang] %}
+
+<section id="about" class="about mt-5">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>{{ page-data.subtitle }}</h2>
+        </div>
+    </div>
+</section><!-- End About Us Section -->
+
+{% include stats.html %}
+
+{% assign page-data = site.data.pages.publications[site.active_lang] %}
+<section id="faq" class="publications">
+
+    <div id="sub-publications" class="container">
+        <div class="section-title p-0">
+            <h2>{{ page-data.subtitle }}</h2>
+        </div>
+
+        {% for item in page-data.publications %}
+        <div class="row publications-item d-flex align-items-stretch shadow">
+            <div class="col-lg-3 d-flex align-items-center">
+                <img src="{{ site.github.url }}{{ item.img }}" class="img-fluid " alt="">
+            </div>
+            <div class="col-lg-7 publications-right ">
+                <h4>{{item.name}}</h4>
+                <p>{{item.authors}}</p>
+
+                <h3 class="text-justify">{{item.short_description}}</h3>
+                <p class="text-al-right pb-0 mb-0 ">{{item.journal}}</p>
+
+            </div>
+            <div class="col-lg-2 d-flex flex-wrap align-items-center buttons-col publications-right">
+                <div class="non-flex">
+                    <div>
+                        <a class="tag button-star button-paper getstarted ">
+                            <i class="ri-calendar-2-fill"></i>
+                            {{item.year}}
+                        </a>
+                    </div>
+                    <a class="button-paper getstarted   scrollto" href="{{ item.source }}">Source</a>
+                    <a class="button-green button-paper getstarted   scrollto" href="{{ item.bibtex }}">BibTex</a>
+
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

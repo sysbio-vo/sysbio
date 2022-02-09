@@ -1,0 +1,173 @@
+---
+en:
+  title: "Publications summary"
+  subtitle: "Publications list"
+  publications:
+    - id: 0
+      img: assets/img/papers/0.jpg
+      name: |-
+        Expression of genes, encoding the enzymes of cysteine metabolism in human placenta in the first
+        and third trimesters of uncomplicated pregnancy
+      journal: 'The Ukrainian Biochemical Journal 88, no. 1 (2016): 88-98'
+      authors: |-
+        Korneeva, K. L., R. R. Rodriguez, S. V. Ralchenko, O. V. Martunovska, A. О. Frolova, O. P.
+                                Martsenyuk, L. V. Manzhula, V. T. Melnyk, O. Y. Shkoropad, and M. Yu Obolenska.
+      stars: 968
+      year: 2016
+      source: http://ukrbiochemjournal.org/2016/03/expression-of-genes-encoding-the-enzymes-of-cysteine-metabolism-in-human-placenta-in-the-first-and-third-trimesters-of-uncomplicated-pregnancy.html
+      bibtex: sysbio.org.ua/research/publications/korneeva2016.bib
+      short_description: The cellular cysteine is highly regulated in a narrow range of
+        concentrations due to its cyto- and neurtoxicity when it is overwhelmed or its
+        deficiency for protein synthesis and other vital metabolic reactions when its
+        amount is restricted
+    - id: 1
+      img: assets/img/papers/1.jpg
+      name: Expression of isgylation related genes in regenerating rat liver
+      journal: 'Biopolymers and Cell 31, no. 5 (2015): 351-361'
+      authors: Kuklin, A. V., T. A. Poliezhaieva, I. O. Zhyryakova, V. V. Ogryzko, and
+        M. Yu Obolenskaya
+      stars: 968
+      year: 2015
+      source: http://www.biopolymers.org.ua/content/31/5/351/
+      bibtex: sysbio.org.ua/research/publications/kuklin2015.bib
+      short_description: Our recent studies have revealed the early up-regulated expression
+        of interferon alpha (IFNα) in the liver, induced by partial hepatectomy. The role
+        of this cytokine of innate immune response in liver regeneration is still controversial
+    - id: 2
+      img: assets/img/papers/2.jpg
+      name: Hepatocytes response to interferon alpha levels recorded after liver resection
+      journal: 'Journal of Interferon & Cytokine Research 34, no. 2 (2014): 90-99.'
+      authors: Kuklin, Andrii, Bogdan Tokovenko, Nataliya Makogon, Malgorzata Oczko-Wojciechowska,
+        Barbara Jarząb, and Maria Obolenskaya
+      stars: 968
+      year: 2014
+      source: online.liebertpub.com/doi/full/10.1089/jir.2012.0125
+      bibtex: sysbio.org.ua/research/publications/kuklin2014.bib
+      short_description: Extensive damage of liver parenchyma stimulates hepatic cells
+        to transit from quiescence to proliferation with eventual restoration of liver
+        mass and function.
+    - id: 3
+      img: assets/img/papers/3.jpg
+      name: Fast Parallel Bayesian Networks Reconstruction with BNFinder
+      journal: In IWBBIO, pp. 1179-1184. 2014..
+      authors: Frolova, Alina, and Bartek Wilczynski
+      stars: 968
+      year: 2014
+      source: iwbbio.ugr.es/2014/papers/IWBBIO_2014_paper_123.pdf
+      bibtex: sysbio.org.ua/research/publications/frolova2014.bib
+      short_description: Bayesian networks are probabilistic graphical models widely used
+        to infer interactions between biological entities such as genes orproteins. In
+        general, learning Bayesian networks from experimental data is NP-hard, leading
+        to widespread use of heuristic search methods giving suboptimal results.
+    - id: 4
+      img: assets/img/papers/paper.jpg
+      name: The start of systems biology in Ukraine
+      journal: 'Biopolymers and Cell 30, no. 1 (2014): 16-24.'
+      authors: Obolenskaya, M. Yu, B. T. Tokovenko, A. V. Kuklin, A. A. Frolova, R. R.
+        Rodriguez, V. A. Dotsenko, and O. O. Dragushchenko.
+      stars: 968
+      year: 2014
+      source: http://www.biopolymers.org.ua/content/30/1/016/
+      bibtex: sysbio.org.ua/research/publications/obolenskaya2014.bib
+      short_description: The first laboratory of Systems Biology in Ukraine (IMBIG NASU)
+        represents a track record of its scientific results. They include the pioneered
+        development of a web-based tool for genome-wide surveys of eukaryotic promoters
+        for the presence of transcription factors binding sites (COTRASIF);
+    - id: 5
+      img: assets/img/papers/paper.jpg
+      name: Mathematical modeling of folate-related processes in human placenta
+      journal: Biopolymers & Cell 30, no. 2 (2014).
+      authors: Dotsenko, V. A., and M. Yu Obolenskaya
+      stars: 968
+      year: 2014
+      source: http://www.biopolymers.org.ua/content/30/2/149/
+      bibtex: sysbio.org.ua/research/publications/dotsenko2014.bib
+      short_description: Description the folate-related processes in the human placenta
+        using the stoichiometric model and investigation the system’s behavior under various
+        conditions.
+ua:
+  title: "Підсумок"
+  subtitle: "Список публікацій"
+  publications:
+    - id: 0
+      img: assets/img/papers/0.jpg
+      name: |-
+        Expression of genes, encoding the enzymes of cysteine metabolism in human placenta in the first
+        and third trimesters of uncomplicated pregnancy
+      journal: 'The Ukrainian Biochemical Journal 88, no. 1 (2016): 88-98'
+      authors: |-
+        Korneeva, K. L., R. R. Rodriguez, S. V. Ralchenko, O. V. Martunovska, A. О. Frolova, O. P.
+                                Martsenyuk, L. V. Manzhula, V. T. Melnyk, O. Y. Shkoropad, and M. Yu Obolenska.
+      stars: 968
+      year: 2016
+      source: http://ukrbiochemjournal.org/2016/03/expression-of-genes-encoding-the-enzymes-of-cysteine-metabolism-in-human-placenta-in-the-first-and-third-trimesters-of-uncomplicated-pregnancy.html
+      bibtex: sysbio.org.ua/research/publications/korneeva2016.bib
+      short_description: The cellular cysteine is highly regulated in a narrow range of
+        concentrations due to its cyto- and neurtoxicity when it is overwhelmed or its
+        deficiency for protein synthesis and other vital metabolic reactions when its
+        amount is restricted
+    - id: 1
+      img: assets/img/papers/1.jpg
+      name: Expression of isgylation related genes in regenerating rat liver
+      journal: 'Biopolymers and Cell 31, no. 5 (2015): 351-361'
+      authors: Kuklin, A. V., T. A. Poliezhaieva, I. O. Zhyryakova, V. V. Ogryzko, and
+        M. Yu Obolenskaya
+      stars: 968
+      year: 2015
+      source: http://www.biopolymers.org.ua/content/31/5/351/
+      bibtex: sysbio.org.ua/research/publications/kuklin2015.bib
+      short_description: Our recent studies have revealed the early up-regulated expression
+        of interferon alpha (IFNα) in the liver, induced by partial hepatectomy. The role
+        of this cytokine of innate immune response in liver regeneration is still controversial
+    - id: 2
+      img: assets/img/papers/2.jpg
+      name: Hepatocytes response to interferon alpha levels recorded after liver resection
+      journal: 'Journal of Interferon & Cytokine Research 34, no. 2 (2014): 90-99.'
+      authors: Kuklin, Andrii, Bogdan Tokovenko, Nataliya Makogon, Malgorzata Oczko-Wojciechowska,
+        Barbara Jarząb, and Maria Obolenskaya
+      stars: 968
+      year: 2014
+      source: online.liebertpub.com/doi/full/10.1089/jir.2012.0125
+      bibtex: sysbio.org.ua/research/publications/kuklin2014.bib
+      short_description: Extensive damage of liver parenchyma stimulates hepatic cells
+        to transit from quiescence to proliferation with eventual restoration of liver
+        mass and function.
+    - id: 3
+      img: assets/img/papers/3.jpg
+      name: Fast Parallel Bayesian Networks Reconstruction with BNFinder
+      journal: In IWBBIO, pp. 1179-1184. 2014..
+      authors: Frolova, Alina, and Bartek Wilczynski
+      stars: 968
+      year: 2014
+      source: iwbbio.ugr.es/2014/papers/IWBBIO_2014_paper_123.pdf
+      bibtex: sysbio.org.ua/research/publications/frolova2014.bib
+      short_description: Bayesian networks are probabilistic graphical models widely used
+        to infer interactions between biological entities such as genes orproteins. In
+        general, learning Bayesian networks from experimental data is NP-hard, leading
+        to widespread use of heuristic search methods giving suboptimal results.
+    - id: 4
+      img: assets/img/papers/paper.jpg
+      name: The start of systems biology in Ukraine
+      journal: 'Biopolymers and Cell 30, no. 1 (2014): 16-24.'
+      authors: Obolenskaya, M. Yu, B. T. Tokovenko, A. V. Kuklin, A. A. Frolova, R. R.
+        Rodriguez, V. A. Dotsenko, and O. O. Dragushchenko.
+      stars: 968
+      year: 2014
+      source: http://www.biopolymers.org.ua/content/30/1/016/
+      bibtex: sysbio.org.ua/research/publications/obolenskaya2014.bib
+      short_description: The first laboratory of Systems Biology in Ukraine (IMBIG NASU)
+        represents a track record of its scientific results. They include the pioneered
+        development of a web-based tool for genome-wide surveys of eukaryotic promoters
+        for the presence of transcription factors binding sites (COTRASIF);
+    - id: 5
+      img: assets/img/papers/paper.jpg
+      name: Mathematical modeling of folate-related processes in human placenta
+      journal: Biopolymers & Cell 30, no. 2 (2014).
+      authors: Dotsenko, V. A., and M. Yu Obolenskaya
+      stars: 968
+      year: 2014
+      source: http://www.biopolymers.org.ua/content/30/2/149/
+      bibtex: sysbio.org.ua/research/publications/dotsenko2014.bib
+      short_description: Description the folate-related processes in the human placenta
+        using the stoichiometric model and investigation the system’s behavior under various
+        conditions.

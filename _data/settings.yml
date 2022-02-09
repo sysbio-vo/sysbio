@@ -1,6 +1,22 @@
 menu:
-- {name: 'Projects',  url: 'projects'}
-- {name: 'Contacts',  url: 'contacts'}
+  en:
+    - {name: 'Home', url: ''}
+    - {name: 'Research',  url: 'research'}
+    - {name: 'Publications',  url: 'publications'}
+    - {name: 'Tools',  url: 'tools'}
+    - {name: 'Team',  url: 'team'}
+    - {name: 'Opportunities',  url: 'opportunities'}
+    - {name: 'Contacts',  url: 'contacts'}
+    - {name: 'Support us', focus: true, url: 'support'}
+  ua:
+    - { name: 'Головна', url: '' }
+    - { name: 'Дослідження',  url: 'research' }
+    - { name: 'Публікації',  url: 'publications' }
+    - { name: 'Застосунки',  url: 'tools' }
+    - { name: 'Команда',  url: 'team' }
+    - { name: 'Можливості',  url: 'opportunities' }
+    - { name: 'Контакти',  url: 'contacts' }
+    - { name: 'Підтримати нас', focus: true, url: 'support' }
 
 social:
 - {icon: 'twitter', link:    'https://twitter.com/'}

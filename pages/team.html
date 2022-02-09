@@ -1,0 +1,97 @@
+---
+layout: page
+title: "Team"
+permalink: /team
+---
+{% assign page-data = site.data.pages.team[site.active_lang] %}
+
+
+<section id="staff" class="team section-bg mt-5">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Staff</h2>
+            <p>Permanent members of the sysbio.ua</p>
+        </div>
+
+        <div class="row services">
+            {% for person in page-data.staff %}
+            <div class="col-lg-2 col-md-4 d-flex align-items-stretch mx-auto">
+                <div class="member">
+                    <div class="member-img">
+                        <!--                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">-->
+                        <img src="{{ site.github.url }}{{ person.photo  }}" class="img-fluid " alt="">
+                        <div class="social">
+                            <a href="{{ person.google_scholar }}">
+                                <img src="{{ site.github.url }}assets/img/icons8-google-scholar-24.png"></a>
+                            <a href="{{ person.email  }}"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4><a href="{{ person.page  }}">{{person.name}} {{person.surname}}</a><h4/>
+                        <span class="inline-position" style="white-space: pre;">{{person.position}}</span>
+                        <hr class="mb-0 mt-1"/>
+                        <span class="mt-1  fst-italic ">{{person.profile}}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section><!-- End Team Section -->
+<section id="phd" class="team section-bg mt-0 pt-0">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Students</h2>
+            <p>Future scientists who are developing in various fields of biology</p>
+        </div>
+
+        <div class="row">
+            {% for person in page-data.stu %}
+            <div class="col-lg-2 col-md-4 d-flex align-items-stretch mx-auto">
+                <div class="member">
+                    <div class="member-img">
+                        <img src="{{ site.github.url }}{{ person.photo }}" class="img-fluid " alt="">
+                        <div class="social">
+                            <a href="{{ person.google_scholar }}"><img
+                                    src="assets/img/icons8-google-scholar-24.png"></a>
+                            <a href="{{ person.email }}"><i class="bi bi-envelope"></i></a>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h4><a href="{{ person.page  }}">{{person.name}} {{person.surname}}</a><h4/>
+                        <span>{{person.position}}</span>
+                        <hr class="mb-0 mt-1"/>
+                        <span class="mt-1  fst-italic ">{{person.profile}}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section><!-- End Team Section -->
+<section id="publications" class="publications">
+    <div class="container">
+        <div class="section-title">
+            <h2>Alumni</h2>
+        </div>
+        {% for person in page-data.alumni %}
+
+        <div class="row publications-item d-flex align-items-stretch mx-auto ">
+            <div class="col-lg-2">
+                {{person.graduation_year}}
+            </div>
+            <div class="col-lg-3">
+                {{person.name}} {{person.surname}}
+            </div>
+            <div class="col-lg-7">
+                <p>
+                    {{person.description}}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

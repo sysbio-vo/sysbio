@@ -3,25 +3,62 @@ layout: page
 title: Home
 ---
 
-<section id="about" class="about">
-<div class="container">
-<div class="section-title">
-    <h2>{{ page.title }}</h2>
-</div>
-<div class="portfolio-description">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dignissim ex ut pellentesque rhoncus. Proin gravida ante sed mauris suscipit, non sagittis neque dictum. In faucibus erat sed lorem molestie tempor. Nullam fermentum consectetur quam, et porttitor diam faucibus ac. Duis nec leo arcu. In maximus sem id pulvinar tempor. Morbi aliquet nulla sed varius ullamcorper. In hac habitasse platea dictumst. Curabitur rutrum iaculis odio nec hendrerit.
-<br>
-<br>
-Fusce id lacinia ex, ac suscipit magna. Phasellus condimentum nibh non dui tempor tempor. Sed diam ex, fermentum vitae efficitur id, luctus vel quam. Integer sit amet metus eu magna tincidunt elementum. Donec hendrerit dui a imperdiet interdum. Suspendisse potenti. Donec elementum ipsum at tortor vestibulum vulputate. Cras accumsan nunc ac justo elementum, quis semper dolor vestibulum. Aliquam purus purus, fringilla sed ornare nec, iaculis eget massa. Integer commodo pharetra imperdiet. Etiam orci augue, mollis at neque non, convallis auctor massa. Duis blandit leo quam, vitae gravida elit mattis nec. Maecenas orci leo, viverra ut aliquam id, blandit vel dolor.
-<br>
-<br>
-Donec quam sem, sodales et sapien eget, tempor efficitur nisl. Sed in sollicitudin metus, sed fermentum neque. Maecenas cursus dapibus dui, sed dictum elit tristique in. Duis id aliquam enim, id bibendum arcu. Donec ut commodo ex, at dignissim tortor. Vivamus blandit, dolor non dictum vestibulum, arcu nibh consectetur lorem, sagittis ullamcorper enim nunc vel dolor. Duis orci nunc, sodales vel dolor a, semper tincidunt turpis. Suspendisse vitae finibus justo, maximus faucibus justo. Aenean nec felis vitae nulla posuere mattis. Mauris hendrerit arcu nec semper accumsan. Mauris pretium libero in lorem faucibus, vel placerat justo consequat. Nulla gravida hendrerit tortor, et dictum elit porttitor non. Phasellus rhoncus lacus ultricies massa viverra sagittis. Phasellus sagittis mi eu enim blandit, non posuere enim porta. Suspendisse lacinia placerat diam quis semper. Ut luctus odio nec nunc placerat ultrices.
-<br>
-<br>
-Nullam maximus aliquet pharetra. Ut et vestibulum lorem, vel ultrices mauris. Maecenas posuere fringilla blandit. Maecenas consectetur dui a velit laoreet, ut varius massa finibus. Pellentesque sit amet nulla luctus nisi auctor lacinia sed et elit. Mauris tortor arcu, ullamcorper non libero non, placerat suscipit mauris. Donec dapibus vulputate ante vitae lobortis. Vivamus non risus diam. Suspendisse potenti. Pellentesque a mi in orci tincidunt consequat sit amet quis odio. Donec non dolor justo. Maecenas ac vulputate tortor. Etiam id vehicula risus. Phasellus in molestie sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-<br>
-<br>
-Sed porta ex quis velit malesuada maximus. Pellentesque scelerisque maximus dapibus. Proin quis accumsan purus, sit amet maximus purus. Cras vel tortor dictum, semper nibh molestie, mattis nibh. Etiam eu nisl eu elit facilisis accumsan. Phasellus et nunc ac enim congue pulvinar. Aliquam mauris diam, pulvinar quis enim eget, laoreet tincidunt lacus. Nullam imperdiet accumsan faucibus. Suspendisse nec massa a metus blandit elementum nec eu ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam cursus tortor velit, eget pretium arcu condimentum et. Aenean euismod malesuada felis, eget rhoncus enim placerat non. Donec et ex est. 
-</div>
-</div>
-</section>
+{% assign page-data = site.data.pages.index[site.active_lang] %}
+
+<section class="d-flex align-items-center" id="hero">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">{{ page-data.main-phrase }}</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">
+                    {{ page-data.main-motto }}</h2>
+                <div data-aos="fade-up" data-aos-delay="800">
+                    <a class="btn-get-started scrollto" href="#about">{{ page-data.main-work-with-us }}</a>
+                </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
+                <img alt="" class="img-fluid animated" src="assets/img/hero-img.png">
+            </div>
+        </div>
+    </div>
+
+</section><!-- End Hero -->
+
+<!-- ======= Clients Section ======= -->
+{% include clients.html %}
+<!-- ======= About Us Section ======= -->
+<section class="about" id="about">
+    <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2> {{ page-data.about-title }}</h2>
+        </div>
+
+        <div class="row content">
+            <div class="col-lg-6 pt-4 pt-lg-0 " data-aos="fade-up" data-aos-delay="150">
+                {{ page-data.about-description }}
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 p-5" data-aos="fade-up" data-aos-delay="150">
+                <p class="text-justify">
+                    {{ page-data.research-areas.title }}
+                </p>
+                <ul>
+                    {% for item in page-data.research-areas.areas %}
+                    <li class="text-justify"><i class="ri-check-double-line"></i>
+                        {{ item }}
+                    </li>
+                    {% endfor %}
+                </ul>
+                <a class="btn-learn-more" href="{{ site.github.url }}research.html">{{ page-data.learn-more }}</a>
+            </div>
+
+        </div>
+
+    </div>
+</section><!-- End About Us Section -->
+
+<!-- ======= Counts Section ======= -->
+{% include stats.html %}
+{% include cta.html %}
+<!-- End Cta Section -->

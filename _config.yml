@@ -8,9 +8,22 @@ url: https://sysbio.org.ua # the base hostname & protocol for your site, e.g. ht
 twitter_username: sysbio-vo
 github_username:  sysbio-vo
 
+languages: ["en", "ua"]
+default_lang: "en"
+#exclude_from_localization: ["assets/img"]
+parallel_localization: true
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title.markdown
+  members:
+    output: true
+    permalink: /members/:title.markdown
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-polyglot
 
 # Exclude from processing.
 # The following items will not be processed, by default.

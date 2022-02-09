@@ -1,0 +1,46 @@
+---
+layout: page
+title: "Tools"
+permalink: /tools
+---
+{% assign page-data = site.data.pages.tools[site.active_lang] %}
+
+<section id="features" class="features pb-0">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>{{ page-data.title }}</h2>
+            <p>{{ page-data.suptitle }}</p>
+        </div>
+
+        <div class="row">
+            {% for item in page-data.tools %}
+            <div class="col-lg-3 col-md-4">
+                <div class="icon-box">
+                    <i class="{{ item.icon }}" style="color: #e80368;"></i>
+                    <h3><a href="">{{item.title}}</a></h3>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>
+
+<section id="feawtures" class="features">
+    {% for item in page-data.libraries %}
+
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ item.title }}</h2>
+            <h5 class="text-left">{{ item.description }}</h5>
+            <p class="text-justify">{{ item.detailed-description }}</p>
+
+        </div>
+        <div class="btn-learn-more-1 float-right">
+            <a href=" {{ site.github.url }}{{item.href}}"
+               class="btn-learn-more">{{page-data.learn-more}}</a></div>
+    </div>
+    {% endfor %}}
+
+</section>

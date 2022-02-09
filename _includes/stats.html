@@ -1,0 +1,31 @@
+{% assign page-data = site.data.pages.index[site.active_lang] %}
+<section class="counts" id="counts">
+    <div class="container">
+
+        <div class="row">
+            <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start"
+                 data-aos="fade-right" data-aos-delay="150">
+                <img alt="" class="img-fluid" src="assets/img/counts-img.svg">
+            </div>
+
+            <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="1">
+                <div class="content d-flex flex-column justify-content-center">
+                    <div class="row">
+                        {% for item in page-data.stats %}
+                        {% assign element = item[1] %}
+                        <div class="col-md-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="{{ element.icon}}"></i>
+                                <span class="purecounter" data-purecounter-duration="1"
+                                      data-purecounter-end="{{ element.count }}" data-purecounter-start="0"></span>
+                                <p>{{ element.description }}</p>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div><!-- End .content-->
+            </div>
+        </div>
+
+    </div>
+</section><!-- End Counts Section -->

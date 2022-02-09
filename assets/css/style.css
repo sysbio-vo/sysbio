@@ -138,6 +138,23 @@ h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
 }
 
+.navbar .focused, .navbar .focused:focus {
+    background: #6c63ff;
+    padding: 8px 25px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.navbar .focused:hover, .navbar .focused:focus:hover {
+    color: #fff;
+    background: #4aa3df;
+}
+
+.navbar-mobile .focused, .navbar-mobile .focused:focus {
+    margin: 15px;
+}
+
 .navbar a i, .navbar a:focus i {
     font-size: 12px;
     line-height: 0;
@@ -148,7 +165,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #6c63ff;
 }
 
-.navbar .getstarted, .navbar .getstarted:focus {
+.navbar .focused, .navbar .focused:focus {
     background: #6c63ff;
     padding: 8px 25px;
     margin-left: 30px;
@@ -156,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-.navbar .getstarted:hover, .navbar .getstarted:focus:hover {
+.navbar .focused:hover, .navbar .focused:focus:hover {
     color: #fff;
     background: #4aa3df;
 }
@@ -318,7 +335,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #6c63ff;
 }
 
-.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+.navbar-mobile .focused, .navbar-mobile .focused:focus {
     margin: 15px;
 }
 
@@ -605,6 +622,24 @@ section {
     margin-top: 6px;
     border: 2px solid #6c63ff;
 }
+
+.btn-learn-more-1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #6c63ff;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #6c63ff;
+}
+
 
 .about .content .btn-learn-more:hover {
     background: #6c63ff;
@@ -1351,13 +1386,13 @@ section {
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
-.faq .faq-item {
+.publications .publications-item {
     margin: 20px 0;
     padding: 20px 0;
     border-bottom: 1px solid #eeeeee;
 }
 
-.faq-right {
+.publications-right {
     padding: 20px 7px;
     padding-bottom: 0px;
 }
@@ -1368,21 +1403,25 @@ section {
     /*padding: 10px 0;*/
 }
 
-.faq .faq-item i {
+.publications .publications-item i {
     /*color: #8bc4ea;*/
     font-size: 20px;
-    /*float: left;*/
-    /*line-height: 0;*/
-    /*padding: 13px 0 0 0;*/
-    /*margin: 0;*/
-    /*line-height: 20px;*/
+}
+
+.publications .publications-item ul li {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 200;
+    font-family: "Poppins", sans-serif;
+    color: #6f787e;
 }
 
 .tag {
     line-height: 20px;
 }
 
-.faq .faq-item h4 {
+.publications .publications-item h4 {
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
@@ -1390,7 +1429,7 @@ section {
     font-family: "Poppins", sans-serif;
 }
 
-.faq .faq-item h5 {
+.publications .publications-item h5 {
     font-size: 15px;
     line-height: 26px;
     font-weight: 200;
@@ -1399,7 +1438,7 @@ section {
     color: #6f787e;
 }
 
-.faq .faq-item h6 {
+.publications .publications-item h6 {
     font-size: 14px;
     line-height: 26px;
     font-weight: 200;
@@ -1408,7 +1447,7 @@ section {
     color: #6f787e;
 }
 
-.faq .faq-item h3 {
+.publications .publications-item h3 {
     font-size: 14px;
     line-height: 26px;
     font-weight: 200;
@@ -1417,7 +1456,7 @@ section {
     color: #6f787e;
 }
 
-/*.faq .faq-item p {*/
+/*.publications .publications-item p {*/
 /*  font-size: 15px;*/
 /*}*/
 
@@ -1434,7 +1473,7 @@ section {
     font-weight: bold;
 }
 
-.faq .faq-item p {
+.publications .publications-item p {
     font-size: 13px;
     line-height: 26px;
     font-weight: 200;
@@ -1677,7 +1716,7 @@ section {
 .footer {
     background: #fff;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    padding: 30px 0;
+    padding: 30px 0 0 0;
     color: #222222;
     font-size: 14px;
 }
@@ -1748,4 +1787,12 @@ section {
 .cta .cta-btn:hover {
     background: #fff;
     color: #6c63ff;
+}
+
+.opportunities {
+    font-size: 24px;
+    line-height: 32px;
+    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    color: #6f787e;
 }
