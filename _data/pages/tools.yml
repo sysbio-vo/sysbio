@@ -1,6 +1,6 @@
 en:
   title: "Tools"
-  suptitle: "Main tools that we developed:"
+  suptitle: "The main tools that we have developed:"
   tools:
     - title: "Contrasif"
       icon: "ri-store-line"
@@ -37,7 +37,7 @@ COTRASIF is a web-based tool for the genome-wide search of evolutionary conserve
 
 ua:
   title: "Tools"
-  suptitle: "Main tools that we developed:"
+  suptitle: "The main tools that we have developed:"
   tools:
     - title: "Contrasif"
       icon: "ri-store-line"
