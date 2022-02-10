@@ -3,6 +3,7 @@ layout: markdown
 title: IGEA
 description: "Web-based tool for integrative gene expression analysis"
 share: true
+permalink: /tools/igea/
 ---
 
 ![alt text]({{ site.github.url }}/assets/img/tools/igea.png "IGEA site picture")

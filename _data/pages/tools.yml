@@ -1,6 +1,6 @@
 en:
   title: "Tools"
-  suptitle: "The main tools we have developed: :"
+  suptitle: "Main tools that we developed:"
   tools:
     - title: "Contrasif"
       icon: "ri-store-line"
@@ -23,7 +23,7 @@ en:
                            reverse-engineer gene regulatory networks based on gene expression profiles. The expected result of such analyses includes, 
                            but not limited to, relevant data-based hypotheses on etiology and pathogenesis of preeclampsia."
       github: "https://github.com/Sashkow/placenta-preeclampsia/"
-      href: "igea"
+      href: "tools/igea"
 
       img: "assets/img/tools/igea.png"
     - title: "COTRASIF"
@@ -32,5 +32,42 @@ en:
 COTRASIF is a web-based tool for the genome-wide search of evolutionary conserved regulatory regions (transcription factor-binding sites, TFBS) in eukaryotic gene promoters. Predictions are made using either a position-weight matrix search method, or a hidden Markov model search method, depending on the availability of the matrix and actual sequences of the target TFBS. COTRASIF is a fully integrated solution incorporating both a gene promoter database (based on the regular Ensembl genome annotation releases) and both JASPAR and TRANSFAC databases of TFBS matrices. To decrease the false-positives rate an integrated evolutionary conservation filter is available, which allows the selection of only those of the predicted TFBS that are present in the promoters of the related species' orthologous genes. COTRASIF is very easy to use, implements a regularly updated database of promoters and is a powerful solution for genome-wide TFBS searching. 
 "
       github: "https://biomed.org.ua/COTRASIF/"
-      href: "cotrasif"
+      href: "tools/cotrasif"
+      img: "assets/img/tools/igea.png"
+
+ua:
+  title: "Tools"
+  suptitle: "Main tools that we developed:"
+  tools:
+    - title: "Contrasif"
+      icon: "ri-store-line"
+      color: #ffbb2c;
+    - title: "IGEA"
+      icon: "ri-bar-chart-box-line"
+      color: #5578ff;
+    - title: "Library 3"
+      icon: "ri-calendar-todo-line"
+      color: #e80368;
+    - title: "Library 4"
+      icon: "ri-paint-brush-line"
+      color: #e361ff;
+  learn-more: "Learn more"
+  libraries:
+    - title: "IGEA"
+      description: "IGEA is a web-based tool for Integrative Gene Expression profiles Analysis"
+      detailed-description: "This tool enables academic scientists and medical researchers to conduct integrative gene expression analysis. 
+                          Users are able to construct cross-experiment case-control study groups, search for differentially expressed genes and
+                           reverse-engineer gene regulatory networks based on gene expression profiles. The expected result of such analyses includes, 
+                           but not limited to, relevant data-based hypotheses on etiology and pathogenesis of preeclampsia."
+      github: "https://github.com/Sashkow/placenta-preeclampsia/"
+      href: "/tools/igea"
+
+      img: "assets/img/tools/igea.png"
+    - title: "COTRASIF"
+      description: "conservation-aided transcription factor binding site finder, a free tool for genome-wide detection of putative TFBS in the promoters of the eukaryotic genes"
+      detailed-description: "
+COTRASIF is a web-based tool for the genome-wide search of evolutionary conserved regulatory regions (transcription factor-binding sites, TFBS) in eukaryotic gene promoters. Predictions are made using either a position-weight matrix search method, or a hidden Markov model search method, depending on the availability of the matrix and actual sequences of the target TFBS. COTRASIF is a fully integrated solution incorporating both a gene promoter database (based on the regular Ensembl genome annotation releases) and both JASPAR and TRANSFAC databases of TFBS matrices. To decrease the false-positives rate an integrated evolutionary conservation filter is available, which allows the selection of only those of the predicted TFBS that are present in the promoters of the related species' orthologous genes. COTRASIF is very easy to use, implements a regularly updated database of promoters and is a powerful solution for genome-wide TFBS searching. 
+"
+      github: "https://biomed.org.ua/COTRASIF/"
+      href: "/tools/cotrasif"
       img: "assets/img/tools/igea.png"
