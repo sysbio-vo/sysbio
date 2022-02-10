@@ -1,0 +1,51 @@
+en:
+  title: "Support us"
+  donate: "Donate now"
+  donate-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua"
+  projects:
+    - "Project 1"
+    - "Project 2"
+    - "Project 3"
+  project-title: "Project you want to donate"
+  reasons:
+    - title: "Divided Evenly"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua."
+    - title: "Transperancy All the Way"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua."
+    - title: "Trustworthy"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua."
+  accept: "We Accept:"
+  enter-name: "Enter your name"
+  enter-email: "Enter your email"
+  enter-amount: "Donation amount (USD)"
+  enter-message: "Messege"
+
+ua:
+  title: "Підтримати нас"
+  donate: "Donate now"
+  donate-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua"
+  projects:
+    - "Project 1"
+    - "Project 2"
+    - "Project 3"
+  project-title: "Project you want to donate"
+  reasons:
+    - title: "Divided Evenly"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua."
+    - title: "Transperancy All the Way"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua."
+    - title: "Trustworthy"
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
+                    labore et dolore magna aliqua."
+  accept: "We Accept:"
+  enter-name: "Enter your name"
+  enter-email: "Enter your email"
+  enter-amount: "Donation amount (USD)"
+  enter-message: "Messege"

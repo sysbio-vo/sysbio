@@ -3,81 +3,86 @@ layout: page
 title: "Support"
 permalink: /support
 ---
-{% assign page-data = site.data.pages.opportunities[site.active_lang] %}
+{% assign page-data = site.data.pages.support[site.active_lang] %}
 
-<section id="about" class="about ">
+<section id="about" class="about pb-0">
     <div class="container">
 
         <div class="section-title">
-            <h2>Opportunities for PhDs</h2>
-        </div>
-
-        <div class="row content">
-            <div class="col-lg-6">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore
-                    magna aliqua.
-                </p>
-                <ul>
-                    <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat
-                    </li>
-                    <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate
-                        velit
-                    </li>
-                    <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-                <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <a href="#" class="btn-learn-more">Learn More</a>
-            </div>
+            <h2>{{ page-data.title }}</h2>
         </div>
 
     </div>
 </section><!-- End About Us Section -->
-<section id="for-students" class="about ">
+<!-- Start donate Area -->
+<section class="donate-area relative pt-0" id="donate">
+    <div class="overlay overlay-bg"></div>
     <div class="container">
-
-        <div class="section-title">
-            <h2>Opportunities for students</h2>
-        </div>
-
-        <div class="row content">
-            <div class="col-lg-6">
+        <div class="row d-flex justify-content-end">
+            <div class="col-lg-6 col-sm-12 pb-80 header-text">
+                <h1>{{ page-data.donate }}</h1>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore
-                    magna aliqua.
+                    {{ page-data.donate-description }}
                 </p>
-                <ul>
-                    <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat
-                    </li>
-                    <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate
-                        velit
-                    </li>
-                    <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-                <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-                    in voluptate
-                    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-                <a href="#" class="btn-learn-more">Learn More</a>
             </div>
         </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-6 contact-left">
+                {% for item in page-data.reasons %}
+                <div class="single-info">
+                    <h4>{{ item.title }}</h4>
+                    <p>
+                        {{ item.description }}
+                    </p>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="col-lg-6 contact-right">
+                <form class="booking-form" id="myForm" action="donate.php">
+                    <div class="row">
+                        <div class="col-lg-12 d-flex flex-column">
+                            <select name="type" class="app-select form-control" required>
+                                <option data-display="{{ page-data.project-title }}">{{ page-data.project-title }}</option>
+                                {% for item in page-data.projects %}
+                                <option value="1">{{ item }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column">
+                            <input name="fname" placeholder="{{ page-data.enter-name }}" onfocus="this.placeholder = ''"
+                                   onblur="this.placeholder = '{{ page-data.enter-name }}'" class="form-control mt-20" required=""
+                                   type="text" required>
+                        </div>
+                        <div class="col-lg-6 d-flex flex-column">
+                            <input name="email" placeholder="{{ page-data.enter-email }}"
+                                   pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
+                                   onfocus="this.placeholder = ''" onblur="this.placeholder = '{{ page-data.enter-email }}'"
+                                   class="form-control mt-20" required="" type="email">
+                        </div>
+                        <div class="col-lg-12 d-flex flex-column">
+                            <input name="amound" placeholder="{{ page-data.enter-amount }}" onfocus="this.placeholder = ''"
+                                   onblur="this.placeholder = '{{ page-data.enter-amount }}'" class="form-control mt-20"
+                                   required="" type="text">
 
+                            <textarea class="form-control mt-20" name="{{ page-data.enter-message }}" placeholder="Messege"
+                                      onfocus="this.placeholder = ''" onblur="this.placeholder = '{{ page-data.enter-message }}'"
+                                      required=""></textarea>
+                        </div>
+
+                        <div class="col-lg-12 d-flex justify-content-end send-btn">
+                            <button class="submit-btn primary-btn mt-20 text-uppercase ">{{ page-data.donate }}<span
+                                    class="lnr lnr-arrow-right"></span></button>
+                        </div>
+
+                        <div class="alert-msg"></div>
+                    </div>
+                </form>
+                <p class="payment-method">
+                    We Accept : <img src="img/payment.png" alt="">
+                </p>
+            </div>
+        </div>
     </div>
-</section><!-- End About Us Section -->
+</section>
+
+{% include cta.html %}
