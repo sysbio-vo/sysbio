@@ -25,7 +25,7 @@ fi
 
 # commit and push to gh-pages
 git add . && git commit -m "`date`"
-git config --global user.name 'alnf'
-git config --global user.email 'alnf@users.noreply.github.com'
+git config --global user.name '${GITHUB_ACTOR}'
+git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
 #git remote set-url --push origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 git push --force --set-upstream origin gh-pages
