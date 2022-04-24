@@ -7,7 +7,12 @@
 
           <div class="col-lg-6 col-md-6  col-lg-offset-10 col-md-offset-10 text-lg-left ">
               <div class="contact-about">
-                  <h3>sysbio.<span class="accent">ua</span></h3>
+                    <div class="logo">
+                      <a href="{{ site.url }}/">
+                          <img alt="" src="{{ site.url }}/assets/img/logo1_80.png">
+                      </a>
+                    </div>
+                  </br>  
                   <p>{{ contacts.description}}</p>
 
                   <div class="social-links">
@@ -21,7 +26,7 @@
           <div class="col-lg-6 col-md-6 mt-md-0 text-lg-left">
               <div class="info">
                   <div class="pb-1">
-                      <h5> {{ contacts.name }}</h5>
+                      <h5>{{ contacts.name }}</h5>
                   </div>
                   <div>
                       <i class="ri-map-pin-line"></i>
@@ -29,7 +34,7 @@
                           <a href="http://imbg.org.ua/uk/dept/enzymology/lab_sysbiol/">
                               {{ contacts.institute }}
                           </a>,
-                          </br> {{ contacts.address }}</p>
+                          </br>{{ contacts.address }}</p>
                   </div>
 
                   <div>
@@ -39,7 +44,7 @@
 
                   <div>
                       <i class="ri-phone-line"></i>
-                      <p> {{ contacts.phone }}</p>
+                      <p>{{ contacts.phone }}</p>
                   </div>
 
               </div>
