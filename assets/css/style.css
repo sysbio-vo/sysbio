@@ -1488,7 +1488,7 @@ section {
 --------------------------------------------------------------*/
 .contact .contact-about h3 {
     font-size: 28px;
-    margin: 0 0 10px 0;
+    margin: 0 0 14px 0;
     padding: 0;
     line-height: 1;
     font-weight: 700;
@@ -1497,7 +1497,7 @@ section {
 }
 
 .contact .contact-about p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     font-family: "Raleway", sans-serif;
     color: #888;
@@ -1859,4 +1859,17 @@ section {
 .donate-area .contact-right .payment-method {
 	color: #ccc;
 	margin-top: 30px
+}
+
+/*--------------------------------------------------------------
+# Map
+--------------------------------------------------------------*/
+.map {
+    height: 180px;
+}
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
 }

@@ -16,7 +16,7 @@ permalink: /contacts
 
             <div class="col-lg-6 col-md-6">
                 <div class="contact-about">
-                    <h3>sysbio</h3>
+                    <h3>{{ page-data.header }}</h3>
                     <p>
                         {{ page-data.description }}
                     </p>
@@ -26,32 +26,44 @@ permalink: /contacts
 
 
             <div class="col-lg-6 col-md-12">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                    <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="{{ page-data.name }}"
-                               required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="{{ page-data.email }}"
-                               required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="{{ page-data.subject }}"
-                               required>
-                    </div>
-                    <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="{{ page-data.message }}"
-                                      required></textarea>
-                    </div>
-                    <div class="my-3">
-                        <div class="loading">{{ page-data.loading }}</div>
-                        <div class="error-message"></div>
-                        <div class="sent-message">{{ page-data.sent-message }}</div>
-                    </div>
-                    <div class="text-center">
-                        <button type="submit">{{ page-data.send }}</button>
-                    </div>
-                </form>
+                <div id="map">
+                    <script>
+
+                        var map = L.map('map', {
+	                        center: [50.354794, 30.48234],
+	                        zoom: 13
+                        });
+
+                        var tiles = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWZyb2xvdmEiLCJhIjoiY2wyZGx4cjJtMTBobDNscDl6dTVoeXAydSJ9.g-BJa5smSbBQYOFIndRQug', {
+                            maxZoom: 18,
+                            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, ' +
+                                'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                            id: 'mapbox/dark-v10',
+                            tileSize: 512,
+                            zoomOffset: -1
+                        }).addTo(map);
+                    
+                        var LeafIcon = L.Icon.extend({
+                            options: {
+                                iconUrl: '{{ site.url }}/assets/img/marker-icon.png',
+                                shadowUrl: '{{ site.url }}/assets/img/marker-shadow.png',
+                                iconAnchor: [13, 41],
+                                iconSize: [26, 41],
+                                popupAnchor: [0, -50]                                
+                            }
+                        }); 
+                        var myIcon = new LeafIcon();
+
+                        var marker = L.marker([50.354794, 30.48234], {icon: myIcon})
+                            .addTo(map)
+                            .on('click', onClick);;
+
+                        function onClick(e) {
+                            window.open("https://goo.gl/maps/71MX1rV1NPyE97dh7");
+                        }
+                    
+                    </script>                    
+                </div>
             </div>
 
         </div>
