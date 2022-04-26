@@ -24,8 +24,8 @@ if [ "$current_branch" != "gh-pages" ]; then
 fi
 
 # commit and push to gh-pages
-git config --global user.name '${GITHUB_ACTOR}'
-git config --global user.email '${GITHUB_ACTOR}@users.noreply.github.com'
+git config --global user.name ${GITHUB_ACTOR}
+git config --global user.email ${GITHUB_ACTOR}"@users.noreply.github.com"
 git add . && git commit -m "`date`"
 #git remote set-url --push origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
 git push --force --set-upstream origin gh-pages
