@@ -146,11 +146,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
-.navbar .focused:hover, .navbar .focused:focus:hover {
-    color: #fff;
-    background: #4aa3df;
-}
-
 .navbar-mobile .focused, .navbar-mobile .focused:focus {
     margin: 15px;
 }
@@ -175,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .focused:hover, .navbar .focused:focus:hover {
     color: #fff;
-    background: #4aa3df;
+    background: #413c9b;
 }
 
 .button-paper, .button-paper:focus {
@@ -187,12 +182,24 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     align-items: center;
     text-align: center;
-    width: 80%;
+    width: 75%;
+    border: 2px solid #6c63ff;
 }
 
-.button-green {
+.button-paper:hover {
+    color: #6c63ff;
+    background: #fff;
+}
+
+.button-bib {
     color: #fff;
-    background: #4aa3df;
+    background: #413c9b;
+    border: 2px solid #413c9b;
+}
+
+.button-bib:hover {
+    color: #413c9b;
+    background: #fff;
 }
 
 .button-star {
@@ -201,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid black;
     padding: 8px 0px;
     display: block;
-    width: 60%;
+    width: 55%;
     margin: 5px auto;
 }
 
@@ -1393,8 +1400,8 @@ section {
 }
 
 .publications-right {
-    padding: 20px 7px;
-    padding-bottom: 0px;
+    padding: 20px 12px;
+    padding-bottom: 12px;
 }
 
 .non-flex {
@@ -1425,7 +1432,7 @@ section {
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
-    margin: 0 0 10px 32px;
+    margin: 0 0 10px 0;
     font-family: "Poppins", sans-serif;
 }
 
@@ -1433,7 +1440,7 @@ section {
     font-size: 15px;
     line-height: 26px;
     font-weight: 200;
-    margin: 0 0 10px 32px;
+    margin: 0 0 10px 0;
     font-family: "Poppins", sans-serif;
     color: #6f787e;
 }
@@ -1442,7 +1449,7 @@ section {
     font-size: 14px;
     line-height: 26px;
     font-weight: 200;
-    margin: 0 0 10px 32px;
+    margin: 0 0 10px 0;
     font-family: "Poppins", sans-serif;
     color: #6f787e;
 }
@@ -1451,7 +1458,7 @@ section {
     font-size: 14px;
     line-height: 26px;
     font-weight: 200;
-    margin: 0 0 10px 32px;
+    margin: 0 0 10px 0;
     font-family: "Poppins", sans-serif;
     color: #6f787e;
 }
@@ -1477,12 +1484,15 @@ section {
     font-size: 13px;
     line-height: 26px;
     font-weight: 200;
-    margin: 0 0 10px 32px;
+    margin: 0 0 10px 0;
     font-style: italic;
     font-family: "Poppins", sans-serif;
     color: #6f787e;
 }
 
+.publications-img {
+    padding: 0 25px 0 25px;
+}
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

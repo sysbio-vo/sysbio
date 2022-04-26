@@ -4,19 +4,6 @@ title: "Publications"
 permalink: /publications
 ---
 {% assign page-data = site.data.pages.publications[site.active_lang] %}
-
-<section id="about" class="about mt-5">
-    <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-            <h2>{{ page-data.subtitle }}</h2>
-        </div>
-    </div>
-</section><!-- End About Us Section -->
-
-{% include stats.html %}
-
-{% assign page-data = site.data.pages.publications[site.active_lang] %}
 <section id="faq" class="publications">
 
     <div id="sub-publications" class="container">
@@ -26,10 +13,10 @@ permalink: /publications
 
         {% for item in page-data.publications %}
         <div class="row publications-item d-flex align-items-stretch shadow">
-            <div class="col-lg-3 d-flex align-items-center">
+            <div class="col-lg-3 d-flex align-items-center publications-img">
                 <img src="{{ site.url }}/{{ item.img }}" class="img-fluid " alt="">
             </div>
-            <div class="col-lg-7 publications-right ">
+            <div class="col publications-right">
                 <h4>{{item.name}}</h4>
                 <p>{{item.authors}}</p>
 
@@ -45,8 +32,8 @@ permalink: /publications
                             {{item.year}}
                         </a>
                     </div>
-                    <a class="button-paper getstarted   scrollto" href="{{ item.source }}">Source</a>
-                    <a class="button-green button-paper getstarted   scrollto" href="{{ item.bibtex }}">BibTex</a>
+                    <a class="button-paper getstarted scrollto" href="{{ item.source }}">Source</a>
+                    <a class="button-bib button-paper getstarted scrollto" href="{{ item.bibtex }}">BibTex</a>
 
                 </div>
             </div>
