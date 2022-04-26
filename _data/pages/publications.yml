@@ -107,7 +107,8 @@ en:
         behavior as a whole at different human pathologies.                 
 ua:
   title: "Перелік публікацій"
-  subtitle: "Обрані публікації"
+  subtitle1: "Обрані публікації"
+  subtitle2: "Публікації за роками"
   publications:
     - id: 0
       img: assets/img/papers/danko2021.jpg
