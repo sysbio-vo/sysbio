@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-    color: #5faee3;
+    color: #413c9b;
     text-decoration: none;
 }
 
@@ -191,7 +191,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
 }
 
-.button-bib {
+.button-bib, .button-bib:focus {
     color: #fff;
     background: #413c9b;
     border: 2px solid #413c9b;
@@ -200,6 +200,11 @@ h1, h2, h3, h4, h5, h6 {
 .button-bib:hover {
     color: #413c9b;
     background: #fff;
+}
+
+.button-all-bib, .button-all-bib:focus{
+    width: 200px;
+    margin: 25px auto;
 }
 
 .button-star {
@@ -511,19 +516,21 @@ section {
 }
 
 .section-title h2 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
     position: relative;
     color: #222222;
 }
 
+@media (min-width: 575px) {
 .section-title h2::before, .section-title h2::after {
     content: "";
     width: 50px;
     height: 2px;
     background: #6c63ff;
     display: inline-block;
+}
 }
 
 .section-title h2::before {
@@ -1404,6 +1411,16 @@ section {
     padding-bottom: 12px;
 }
 
+.publications-list {
+    width: 70%;
+}
+
+@media screen and (max-width: 1000px) {
+    .publications-list {
+       width: 100%;
+    }
+}
+
 .non-flex {
     /*margin-left: auto;*/
     width: 100%;
@@ -1883,3 +1900,30 @@ section {
     max-width: 100%;
     max-height: 100%;
 }
+
+/*--------------------------------------------------------------
+# Bibliography
+--------------------------------------------------------------*/
+
+ol.bibliography {
+    counter-reset: item
+}
+  
+ol.bibliography li {
+    list-style-type: none;
+    margin: 30px 0;
+}
+  
+ol.bibliography li:before {
+    content: "[" counter(item) "] ";
+    counter-increment: item;
+    position: absolute;
+    text-align: right;
+    width: 4em;
+    margin-left: -4.4em;
+}
+
+/* compensate for the navigation bar height */
+/*html {
+    scroll-padding-top: 50px;
+}*/

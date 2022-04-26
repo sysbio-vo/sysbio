@@ -1,7 +1,8 @@
 ---
 en:
   title: "Publications summary"
-  subtitle: "Featured publications"
+  subtitle1: "Featured publications"
+  subtitle2: "Publications by year"
   publications:
     - id: 0
       img: assets/img/papers/danko2021.jpg

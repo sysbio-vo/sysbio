@@ -28,6 +28,13 @@ collections:
 plugins:
   - jekyll-feed
   - jekyll-polyglot
+  - jekyll-scholar
+
+scholar:
+  sort_by: year
+  order: descending
+  bibliography: sysbio_publications.bib
+  style: _bibliography/my-mla.csl
 
 # Exclude from processing.
 # The following items will not be processed, by default.
