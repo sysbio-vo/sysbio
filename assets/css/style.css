@@ -182,7 +182,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     align-items: center;
     text-align: center;
-    width: 75%;
+    width: 150px;
     border: 2px solid #6c63ff;
 }
 
@@ -213,7 +213,7 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid black;
     padding: 8px 0px;
     display: block;
-    width: 55%;
+    width: 100px;
     margin: 5px auto;
 }
 
@@ -1407,7 +1407,7 @@ section {
 }
 
 .publications-right {
-    padding: 20px 12px;
+    padding: 20px 32px;
     padding-bottom: 12px;
 }
 
@@ -1509,6 +1509,7 @@ section {
 
 .publications-img {
     padding: 0 25px 0 25px;
+    justify-content: center;
 }
 /*--------------------------------------------------------------
 # Contact
