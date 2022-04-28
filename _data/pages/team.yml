@@ -4,7 +4,7 @@ en:
   - name: Olga
     surname: Martsenyuk
     position: Senior Researcher
-    photo: assets/img/team/olga-martsenyuk-min.jpg
+    photo: assets/img/team/olga-martsenyuk.jpg
     twitter: ''
     email: o.p.martsenyuk@imbg.org.ua
     linkedin: ''
@@ -13,7 +13,7 @@ en:
   - name: Oleksandr
     surname: Lykhenko
     position: Junior Research Fellow
-    photo: assets/img/team/oleksandr-lykhenko-min.png
+    photo: assets/img/team/oleksandr-lykhenko.jpg
     twitter: ''
     email: lykhenko.olexandr@gmail.com
     linkedin: ''
@@ -24,7 +24,7 @@ en:
     position: |-
       Professor, Dr. Sci.,
        Group Leader
-    photo: assets/img/team/maria-obolenska-min.jpg
+    photo: assets/img/team/maria-obolenska.jpg
     twitter: ''
     email: m.obolenska@gmail.com
     linkedin: ''
@@ -34,7 +34,7 @@ en:
   - name: Alina
     surname: Frolova
     position: Junior Research Fellow
-    photo: assets/img/team/alina-frolova-min.png
+    photo: assets/img/team/alina-frolova.jpg
     twitter: ''
     email: a.o.frolova@imbg.org.ua
     linkedin: ''
@@ -43,7 +43,7 @@ en:
   - name: Maria
     surname: Chabanova
     position: Technician
-    photo: assets/img/team/avatar-min.jpg
+    photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -53,7 +53,7 @@ en:
   - name: Artem
     surname: Kichydzhy
     position: Bachelor's student
-    photo: assets/img/team/artem-kichydzhy-min.jpg
+    photo: assets/img/team/artem-kichydzhy.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -62,25 +62,25 @@ en:
   - name: Yurii
     surname: Ryzhuk
     position: Master's student
-    photo: assets/img/team/yurii-ryzhuk-min.jpg
+    photo: assets/img/team/yurii-ryzhuk.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
   - name: Stanislav
     surname: Zubenko
     position: PhD student
-    photo: assets/img/team/stanislav-zubenko-min.jpg
+    photo: assets/img/team/stas-zubenko.jpg
     twitter: ''
     email: dantistnfs@gmail.com
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
   - name: Dmytro
     surname: Goryslavets
     position: Master's student
-    photo: assets/img/team/dmytro-goryslavets-min.jpg
+    photo: assets/img/team/dmytro-goryslavets.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -89,7 +89,7 @@ en:
   - name: Anna
     surname: Manko
     position: Master's student
-    photo: assets/img/team/anna-manko-min.jpg
+    photo: assets/img/team/anna-manko.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -98,7 +98,7 @@ en:
   - name: Vadym
     surname: Kovadlo
     position: Master's student
-    photo: assets/img/team/vadym-kovadlo-min.jpg
+    photo: assets/img/team/vadym-kovadlo.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -108,24 +108,24 @@ en:
   - name: Ruslan
     surname: Rodriguez
     position: ''
-    photo: assets/img/team/avatar-min.jpg
+    photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
     graduation_year: 2021
     description: Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
       lacus laoreet non
   - name: Bogdan
     surname: Tokovenko
     position: ''
-    photo: assets/img/team/avatar-min.jpg
+    photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
     graduation_year: 2017
     description: Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
       lacus laoreet non
@@ -134,7 +134,7 @@ ua:
   - name: Olga
     surname: Martsenyuk
     position: Senior Researcher
-    photo: assets/img/team/olga-martsenyuk-min.jpg
+    photo: assets/img/team/olga-martsenyuk.jpg
     twitter: ''
     email: o.p.martsenyuk@imbg.org.ua
     linkedin: ''
@@ -143,7 +143,7 @@ ua:
   - name: Oleksandr
     surname: Lykhenko
     position: Junior Research Fellow
-    photo: assets/img/team/oleksandr-lykhenko-min.png
+    photo: assets/img/team/oleksandr-lykhenko.jpg
     twitter: ''
     email: lykhenko.olexandr@gmail.com
     linkedin: ''
@@ -154,7 +154,7 @@ ua:
     position: |-
       Professor, Dr. Sci.,
        Group Leader
-    photo: assets/img/team/maria-obolenska-min.jpg
+    photo: assets/img/team/maria-obolenska.jpg
     twitter: ''
     email: m.obolenska@gmail.com
     linkedin: ''
@@ -164,7 +164,7 @@ ua:
   - name: Alina
     surname: Frolova
     position: Junior Research Fellow
-    photo: assets/img/team/alina-frolova-min.png
+    photo: assets/img/team/alina-frolova.jpg
     twitter: ''
     email: a.o.frolova@imbg.org.ua
     linkedin: ''
@@ -173,7 +173,7 @@ ua:
   - name: Maria
     surname: Chabanova
     position: Technician
-    photo: assets/img/team/avatar-min.jpg
+    photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -183,7 +183,7 @@ ua:
   - name: Artem
     surname: Kichydzhy
     position: Bachelor's student
-    photo: assets/img/team/artem-kichydzhy-min.jpg
+    photo: assets/img/team/artem-kichydzhy.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -192,25 +192,25 @@ ua:
   - name: Yurii
     surname: Ryzhuk
     position: Master's student
-    photo: assets/img/team/yurii-ryzhuk-min.jpg
+    photo: assets/img/team/yurii-ryzhuk.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
   - name: Stanislav
     surname: Zubenko
     position: PhD student
-    photo: assets/img/team/stanislav-zubenko-min.jpg
+    photo: assets/img/team/stanislav-zubenko.jpg
     twitter: ''
     email: dantistnfs@gmail.com
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
   - name: Dmytro
     surname: Goryslavets
     position: Master's student
-    photo: assets/img/team/dmytro-goryslavets-min.jpg
+    photo: assets/img/team/dmytro-goryslavets.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -219,7 +219,7 @@ ua:
   - name: Anna
     surname: Manko
     position: Master's student
-    photo: assets/img/team/anna-manko-min.jpg
+    photo: assets/img/team/anna-manko.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -228,7 +228,7 @@ ua:
   - name: Vadym
     surname: Kovadlo
     position: Master's student
-    photo: assets/img/team/vadym-kovadlo-min.jpg
+    photo: assets/img/team/vadym-kovadlo.jpg
     twitter: ''
     email: ''
     linkedin: ''
@@ -238,22 +238,22 @@ ua:
   - name: Ruslan
     surname: Rodriguez
     position: ''
-    photo: assets/img/team/avatar-min.jpg
+    photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
     graduation_year: 2021
     description: The current affilation is ...
   - name: Bogdan
     surname: Tokovenko
     position: ''
-    photo: assets/img/team/avatar-min.jpg
+    photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, data-mining
+    profile: molecular biology, dataing
     graduation_year: 2017
     description: The current affilation is ...
