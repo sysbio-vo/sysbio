@@ -107,7 +107,7 @@ en:
   alumni:
   - name: Ruslan
     surname: Rodriguez
-    position: ''
+    position: Molecular Biology Product Specialist at HLR, Kyiv, Ukraine
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
@@ -115,45 +115,42 @@ en:
     google_scholar: ''
     profile: molecular biology, dataing
     graduation_year: 2021
-    description: Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
-      lacus laoreet non
+    description: ''
   - name: Bogdan
     surname: Tokovenko
-    position: ''
+    position: Bioinformatician at BASF, Mannheim, Germany
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
     profile: molecular biology, dataing
-    graduation_year: 2017
-    description: Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat
-      lacus laoreet non
+    graduation_year: 2012
+    description: ''
 ua:
   staff:
-  - name: Olga
-    surname: Martsenyuk
-    position: Senior Researcher
+  - name: Ольга
+    surname: Марценюк
+    position: с.н.с.
     photo: assets/img/team/olga-martsenyuk.jpg
     twitter: ''
     email: o.p.martsenyuk@imbg.org.ua
     linkedin: ''
     google_scholar: ''
     profile: experimental molecular biology
-  - name: Oleksandr
-    surname: Lykhenko
-    position: Junior Research Fellow
+  - name: Олександр
+    surname: Лихенко
+    position: м.н.с.
     photo: assets/img/team/oleksandr-lykhenko.jpg
     twitter: ''
     email: lykhenko.olexandr@gmail.com
     linkedin: ''
     google_scholar: ''
     profile: proteomics, metabolic pathways modelling
-  - name: Maria
-    surname: Obolenska
+  - name: Марія
+    surname: Оболенська
     position: |-
-      Professor, Dr. Sci.,
-       Group Leader
+      професор, керівник групи
     photo: assets/img/team/maria-obolenska.jpg
     twitter: ''
     email: m.obolenska@gmail.com
@@ -161,18 +158,18 @@ ua:
     google_scholar: ''
     profile: computational and molecular biology
     page: members/maria-obolenska
-  - name: Alina
-    surname: Frolova
-    position: Junior Research Fellow
+  - name: Аліна
+    surname: Фролова
+    position: м.н.с.
     photo: assets/img/team/alina-frolova.jpg
     twitter: ''
     email: a.o.frolova@imbg.org.ua
     linkedin: ''
     google_scholar: ''
     profile: computational biology and bioinformatics
-  - name: Maria
-    surname: Chabanova
-    position: Technician
+  - name: Марія
+    surname: Чабанова
+    position: інженер
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
@@ -180,54 +177,54 @@ ua:
     google_scholar: ''
     profile: lab equipment
   stu:
-  - name: Artem
-    surname: Kichydzhy
-    position: Bachelor's student
+  - name: Артем
+    surname: Кічиджи
+    position: бакалавр
     photo: assets/img/team/artem-kichydzhy.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
     profile: molecular biology
-  - name: Yurii
-    surname: Ryzhuk
-    position: Master's student
+  - name: Юрій
+    surname: Рижук
+    position: магістр
     photo: assets/img/team/yurii-ryzhuk.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
     profile: molecular biology, dataing
-  - name: Stanislav
-    surname: Zubenko
-    position: PhD student
-    photo: assets/img/team/stanislav-zubenko.jpg
+  - name: Стас
+    surname: Зубенко
+    position: аспірант
+    photo: assets/img/team/stas-zubenko.jpg
     twitter: ''
     email: dantistnfs@gmail.com
     linkedin: ''
     google_scholar: ''
     profile: molecular biology, dataing
-  - name: Dmytro
-    surname: Goryslavets
-    position: Master's student
+  - name: Дмитро
+    surname: Гориславець
+    position: магістр
     photo: assets/img/team/dmytro-goryslavets.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
     profile: computational biology and bioinformatics
-  - name: Anna
-    surname: Manko
-    position: Master's student
+  - name: Анна
+    surname: Манько
+    position: магістр
     photo: assets/img/team/anna-manko.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
     profile: computational biology and bioinformatics
-  - name: Vadym
-    surname: Kovadlo
-    position: Master's student
+  - name: Вадим
+    surname: Ковадло
+    position: магістр
     photo: assets/img/team/vadym-kovadlo.jpg
     twitter: ''
     email: ''
@@ -235,25 +232,25 @@ ua:
     google_scholar: ''
     profile: computational biology and bioinformatics
   alumni:
-  - name: Ruslan
-    surname: Rodriguez
-    position: ''
+  - name: Руслан
+    surname: Родрігез
+    position: Спеціаліст з рішень у молекулярній біології, ХЛР, Київ, Україна
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, dataing
+    profile: ''
     graduation_year: 2021
-    description: The current affilation is ...
-  - name: Bogdan
-    surname: Tokovenko
-    position: ''
+    description: ''
+  - name: Богдан
+    surname: Токовенко
+    position: Біоінформатик, BASF, Мангайм, Німеччина
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, dataing
-    graduation_year: 2017
-    description: The current affilation is ...
+    profile: ''
+    graduation_year: 2012
+    description: ''
