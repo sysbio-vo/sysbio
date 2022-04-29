@@ -19,9 +19,8 @@ menu:
     - { name: 'Підтримати нас', focus: true, url: 'support' }
 
 social:
-- {icon: 'twitter', link:    'https://twitter.com/'}
-- {icon: 'instagram', link:  'https://instagram.com/'}
-
+- {icon: 'youtube', link:   'https://www.youtube.com/channel/UCnhV3Xbdc2nSqTiGSZ4nbOA'}
+- {icon: 'linkedin', link:  'https://www.linkedin.com/company/sysbioua'}
 
 # Customize site text
 pagination:

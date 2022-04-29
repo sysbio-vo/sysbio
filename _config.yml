@@ -10,7 +10,7 @@ github_username:  sysbio-vo
 languages: ["en", "ua"]
 default_lang: "en"
 active_lang: "en"
-#exclude_from_localization: ["assets/img"]
+exclude_from_localization: ["assets/img"]
 parallel_localization: true
 
 collections:
