@@ -11,11 +11,13 @@
 
   <meta http-equiv="Content-Language" content="{{ site.active_lang }}">
 
-  {% if site.active_lang == site.default_lang %}
-  <link rel="x-default" hreflang="{{ site.active_lang }}" href=" {{ site.url }}{{ page.url }}" />
+  {% for lang in site.data.languages %}
+  {% if lang[0] == site.default_lang %}
+  <link rel="alternate" hreflang="x-default" href=" {{ site.url }}{{ page.url }}" />
   {% else %}  
-  <link rel="alternate" hreflang="{{ site.active_lang }}" href=" {{ site.url }}/{{site.active_lang}}{{ page.url }}" />
+  <link rel="alternate" hreflang="{{ lang[0] }}" href=" {{ site.url }}/{{ lang[0] }}{{ page.url }}" />
   {% endif %}
+  {% endfor %}
   
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
