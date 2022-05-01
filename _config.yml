@@ -6,6 +6,7 @@ baseurl: # the subpath of your site, e.g. /blog
 url: https://sysbio.org.ua # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sysbio-vo
 github_username:  sysbio-vo
+keywords: "Bioinformatics, Systems Biology, metagenomics, transcriptomics, multi-omics, next-generation sequencing"
 
 languages: ["en", "ua"]
 default_lang: "en"

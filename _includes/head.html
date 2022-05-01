@@ -10,6 +10,13 @@
   </script>
 
   <meta http-equiv="Content-Language" content="{{ site.active_lang }}">
+
+  {% if site.active_lang == site.default_lang %}
+  <link rel="x-default" hreflang="{{ site.active_lang }}" href="{{ page.url }}" />
+  {% else %}  
+  <link rel="alternate" hreflang="{{ site.active_lang }}" href="{{ page.url }}" />
+  {% endif %}
+  
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
@@ -21,8 +28,8 @@
     {% endif %}
   </title>
 
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="{{ site.description }}" name="description">
+  <meta content="{{ site.keywords }}" name="keywords">
 
   <!-- Favicons -->
   <link href="{{ site.url }}/assets/img/favicon.png" rel="icon">
