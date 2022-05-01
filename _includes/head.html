@@ -12,9 +12,9 @@
   <meta http-equiv="Content-Language" content="{{ site.active_lang }}">
 
   {% if site.active_lang == site.default_lang %}
-  <link rel="x-default" hreflang="{{ site.active_lang }}" href="{{ page.url }}" />
+  <link rel="x-default" hreflang="{{ site.active_lang }}" href=" {{ site.url }}{{ page.url }}" />
   {% else %}  
-  <link rel="alternate" hreflang="{{ site.active_lang }}" href="{{ page.url }}" />
+  <link rel="alternate" hreflang="{{ site.active_lang }}" href=" {{ site.url }}/{{site.active_lang}}{{ page.url }}" />
   {% endif %}
   
   <meta charset="utf-8">
