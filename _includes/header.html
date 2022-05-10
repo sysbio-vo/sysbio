@@ -23,7 +23,7 @@
 
                 {% endfor %}
                 <li class="dropdown">
-                    <a href='{{ site.url }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}'>
+                    <a href='{{ site.url }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/'>
                         <span>{{site.data.languages[site.active_lang].icon}}</span> <i class="bi bi-chevron-down"></i>
                     </a>
                     <ul>
