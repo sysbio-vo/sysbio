@@ -4,7 +4,7 @@ lang: 'ua'
 title:  "Test"
 day:   2022-05-26 11:11:46 +0200
 categories: opportunities
-tags: All Opportunities 
+tags: all opportunities 
 img: assets/img/posts/2022-05-26-kau-summer-school.png
 title: Літнє студентське дистанційне стажування 2022
 description:  Для тих хто зацікавився Літнім стажуванням у КАУ!
