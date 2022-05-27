@@ -5,13 +5,6 @@ permalink: /tools
 ---
 {% assign page-data = site.data.pages.tools[site.active_lang] %}
 
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css"
-      href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap-extended.min.css">
-<link rel="stylesheet" type="text/css"
-      href="https://pixinvent.com/stack-responsive-bootstrap-4-admin-template/app-assets/css/bootstrap.min.css">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-
 <div class="grey-bg container-fluid">
     <section id="stats-subtitle">
         <div class="section-title">
@@ -26,12 +19,14 @@ permalink: /tools
                     <div class="card-content">
                         <div class="card-body cleartfix">
                             <div class="media align-items-stretch">
-                                <div class="align-self-center">
-                                    <h1 class="mr-2"><i class="{{ item.icon }}" style="color: #e80368;"></i></h1>
-                                </div>
-                                <div class="media-body">
-                                    <h4>{{ item.title }}</h4>
-                                    <span class="fst-italic">{{ item.description }}</span>
+                                <div class="row">
+                                    <div class="align-self-center col-xl-1 ">
+                                        <h1 class="mr-1"><i class="{{ item.icon }}" style="color: #e80368;"></i></h1>
+                                    </div>
+                                    <div class="media-body col-xl-11 ">
+                                        <h4>{{ item.title }}</h4>
+                                        <span class="fst-italic">{{ item.description }}</span>
+                                    </div>
                                 </div>
                                 <div class="align-self-center">
                                     <i class="icon-heart danger font-large-2"></i>
