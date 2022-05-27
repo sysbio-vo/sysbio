@@ -112,8 +112,8 @@ en:
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
-    linkedin: ''
-    google_scholar: ''
+    linkedin: 'https://www.linkedin.com/in/ruslan-rodriguez-a1a11540/?originalSubdomain=ua'
+    google_scholar: 'https://scholar.google.com.ua/citations?user=_UQSO7sAAAAJ&hl=uk'
     profile: molecular biology, dataing
     graduation_year: 2021
     description: ''
@@ -123,8 +123,8 @@ en:
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
-    linkedin: ''
-    google_scholar: ''
+    linkedin: 'https://www.linkedin.com/in/bogdan-tokovenko/?originalSubdomain=de'
+    google_scholar: 'https://scholar.google.de/citations?user=xQbV-xEAAAAJ&hl=en'
     profile: molecular biology, dataing
     graduation_year: 2012
     description: ''
@@ -163,10 +163,10 @@ ua:
     surname: Фролова
     position: м.н.с.
     photo: assets/img/team/alina-frolova.jpg
-    twitter: ''
+    twitter: 'https://twitter.com/systemnaBio'
     email: a.o.frolova@imbg.org.ua
-    linkedin: ''
-    google_scholar: ''
+    linkedin: 'https://www.linkedin.com/in/alina-frolova/'
+    google_scholar: 'https://scholar.google.com/citations?user=dbmfsLsAAAAJ&hl=en'
     profile: computational biology and bioinformatics
   - name: Марія
     surname: Чабанова
@@ -219,8 +219,8 @@ ua:
     position: магістр
     photo: assets/img/team/anna-manko.jpg
     twitter: ''
-    email: ''
-    linkedin: ''
+    email: 'mankoania@gmail.com'
+    linkedin: 'https://www.linkedin.com/in/anna-manko-16b400150/'
     google_scholar: ''
     profile: computational biology and bioinformatics
   - name: Вадим
@@ -239,8 +239,8 @@ ua:
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
-    linkedin: ''
-    google_scholar: ''
+    linkedin: 'https://www.linkedin.com/in/ruslan-rodriguez-a1a11540/?originalSubdomain=ua'
+    google_scholar: 'https://scholar.google.com.ua/citations?user=_UQSO7sAAAAJ&hl=uk'
     profile: ''
     graduation_year: 2021
     description: ''
@@ -250,8 +250,8 @@ ua:
     photo: assets/img/team/avatar.jpg
     twitter: ''
     email: ''
-    linkedin: ''
-    google_scholar: ''
+    linkedin: 'https://www.linkedin.com/in/bogdan-tokovenko/?originalSubdomain=de'
+    google_scholar: 'https://scholar.google.de/citations?user=xQbV-xEAAAAJ&hl=en'
     profile: ''
     graduation_year: 2012
     description: ''
