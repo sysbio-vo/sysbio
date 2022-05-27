@@ -7915,7 +7915,7 @@ h1, h2, h3, h4, h5,
     -ms-border-radius: 3px;
     border-radius: 3px; }
     .blog-entry .img.img-2 {
-      height: 330px; }
+      height: 270px; }
   .blog-entry .text {
     position: relative;
     z-index: 0; }
@@ -8541,3 +8541,13 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.row {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
