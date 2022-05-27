@@ -2,7 +2,7 @@
 layout: post
 lang: 'en'
 title:  "Test"
-day:   2022-01-14 11:11:46 +0200
+day:   2022-02-01 11:11:46 +0200
 categories: opportunities
 tags: all opportunities 
 img: assets/img/posts/2022-01-14-kau-school.png

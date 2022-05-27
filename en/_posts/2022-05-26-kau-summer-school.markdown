@@ -8,7 +8,7 @@ tags: all opportunities
 img: assets/img/posts/2022-05-26-kau-summer-school.png
 title: IRIS-HEP Ukrainian Fellows Applications
 description:  The application form for the IRIS-HEP Ukrainians Fellows program - Summer Student Internship 2022!
-day: 01/02/2022
+day: 26/05/2022
 author:
     name: Alina Frolova
     img: assets/img/team/alina-frolova.jpg
