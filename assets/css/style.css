@@ -618,7 +618,10 @@ section {
     filter: none;
     transform: scale(1.1);
 }
-
+.border-e{
+    background: #f3f9fd;
+    /*border-bottom:1px solid black;*/
+}
 .events-img img{
     filter: grayscale(100);
     display: inline-block;
