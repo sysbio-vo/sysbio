@@ -428,6 +428,48 @@ h1, h2, h3, h4, h5, h6 {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
+#hero-ua {
+    height: 40vh;
+    background: linear-gradient(0deg, #fffae6 0%, #e8f0fe 112.24%);
+    margin-top:60px;
+}
+
+#hero-ua h1 {
+    margin: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: black;
+}
+
+#hero-ua h2 {
+    color: #484848;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+#hero-ua .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #6c63ff;
+    border: 2px solid #6c63ff;
+}
+
+#hero-ua .btn-get-started:hover {
+    background: #6c63ff;
+    color: #fff;
+}
+
+#hero-ua .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
 @media (min-width: 1024px) {
     #hero {
         background-attachment: fixed;
@@ -1558,6 +1600,10 @@ section {
 
 .contact .info {
     color: #444444;
+}
+
+.contact .light {
+    color: #fff;
 }
 
 .contact .info i {

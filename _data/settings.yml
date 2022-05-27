@@ -6,6 +6,7 @@ menu:
     - {name: 'Tools',  url: 'tools'}
     - {name: 'Team',  url: 'team'}
     - {name: 'Opportunities',  url: 'opportunities'}
+    - {name: 'Blog',  url: 'blog'}
     - {name: 'Contacts',  url: 'contacts'}
     - {name: 'Support us', focus: true, url: 'support'}
   ua:
@@ -16,6 +17,7 @@ menu:
     - { name: 'Команда',  url: 'team' }
     - { name: 'Можливості',  url: 'opportunities' }
     - { name: 'Контакти',  url: 'contacts' }
+    - { name: 'Блог',  url: 'blog' }
     - { name: 'Підтримати нас', focus: true, url: 'support' }
 
 social:

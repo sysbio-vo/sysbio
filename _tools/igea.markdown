@@ -1,9 +1,18 @@
 ---
 layout: markdown
-title: IGEA
-description: "Web-based tool for integrative gene expression analysis"
+lang: 'ua'
+title: "IGEA"
+description: "Web-based tool for Integrative Gene Expression profiles Analysis"
+detailed-description: IGEA enables academic scientists and medical researchers to conduct integrative gene expression analysis. 
+                      Users are able to construct cross-experiment case-control study groups, search for differentially expressed genes and  reverse-engineer gene regulatory networks based on gene expression profiles. The expected result of such analyses includes, 
+                      but not limited to, relevant data-based hypotheses on etiology and pathogenesis of preeclampsia.
+github: https://github.com/Sashkow/placenta-preeclampsia/
 share: true
 permalink: /tools/igea/
+href: tools/igea/
+img: assets/img/tools/igea.png
+icon: ri-store-line
+color: #ffbb2c
 ---
 
 ![alt text]({{ site.github.url }}/assets/img/tools/igea.png "IGEA site picture")

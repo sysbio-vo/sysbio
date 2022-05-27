@@ -3,7 +3,7 @@
 
         <div class="logo">
             <a href="{{ site.url }}/">
-                    <img alt="" src="{{ site.url }}/assets/img/logo_46.png">
+                    <img alt="" src="{{ site.baseurl }}/assets/img/logo/logo_46.png">
             </a>
         </div>
 
@@ -16,14 +16,14 @@
                               {% if item.focus == true %}focused {% else %}nav-link{% endif %}
                               scrollto
                               {% if page.url == baseurl %}active{% endif %}'
-                       href='{{ site.url }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
+                       href='{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
                         {{ item.name }}
                     </a>
                 </li>
 
                 {% endfor %}
                 <li class="dropdown">
-                    <a href='{{ site.url }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/'>
+                    <a href='{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/'>
                         <span>{{site.data.languages[site.active_lang].icon}}</span> <i class="bi bi-chevron-down"></i>
                     </a>
                     <ul>
@@ -33,12 +33,12 @@
                             {% endif %}
                                                                   
                         {% if lang[0] == site.default_lang %}
-                            <a href=" {{ site.url }}{{ page.url }}">
+                            <a href=" {{ site.baseurl }}{{ page.url }}">
                                 {{ lang[1].icon }}
                                 {% assign site.active_lang = lang[0] %}
                             </a>
                         {% else %}
-                            <a href=" {{ site.url }}/{{ lang[0] }}{{ page.url }}">
+                            <a href=" {{ site.baseurl }}/{{ lang[0] }}{{ page.url }}">
                                 {{ lang[1].icon }}
                                 {% assign site.active_lang = lang[0] %}
                             </a>

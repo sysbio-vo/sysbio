@@ -1,51 +1,34 @@
 en:
-  title: "Support us"
-  donate: "Donate now"
-  donate-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua"
-  projects:
-    - "Project 1"
-    - "Project 2"
-    - "Project 3"
-  project-title: "Project you want to donate"
-  reasons:
-    - title: "Divided Evenly"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua."
-    - title: "Transperancy All the Way"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua."
-    - title: "Trustworthy"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua."
-  accept: "We Accept:"
-  enter-name: "Enter your name"
-  enter-email: "Enter your email"
-  enter-amount: "Donation amount (USD)"
-  enter-message: "Messege"
-
+  title: "Help Ukraine in the war with Russia"
+  suptitle: "Support Ukrainian science! 🇺🇦"
+  cta: "Support financially "
+  link: "https://pay.mbnk.biz/220527B3qkFYhRoAnf7z"
+  directions:
+    - id: 0
+      title: Offer a commercial project
+      description: Like the vast majority of Ukrainians, we lost our usual forms of income at the beginning of the war – so if you have a job that requires an experienced scientist, please contact us
+    - id: 1
+      title: Donate to a project development
+      description: Although our activities go beyond online, we continue to work in laboratories. To do this, we need more financial help than usual.
+    - id: 2
+      title: ArmUkraineNow
+      description: To continue heroically defending the world from Russian aggression, Ukraine needs a specific list of weapons. I appeal to citizens of the whole world to help convey to your governments, presidential administrations, and leaders of your countries the real needs of Ukraine, which will help stop the war.
+  cta:
+    motto: "Develop science with sysbio.ua 🚀 "
+    description: "Find out how to support Ukrainian bioinformatics and change the future around you!"
+    action: "Support us"
 ua:
-  title: "Підтримати нас"
-  donate: "Donate now"
-  donate-description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua"
-  projects:
-    - "Project 1"
-    - "Project 2"
-    - "Project 3"
-  project-title: "Project you want to donate"
-  reasons:
-    - title: "Divided Evenly"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua."
-    - title: "Transperancy All the Way"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua."
-    - title: "Trustworthy"
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br> tempor incididunt ut
-                    labore et dolore magna aliqua."
-  accept: "We Accept:"
-  enter-name: "Enter your name"
-  enter-email: "Enter your email"
-  enter-amount: "Donation amount (USD)"
-  enter-message: "Messege"
+  title: "Help Ukraine in the war with Russia"
+  suptitle: "Support Ukrainian science! 🇺🇦"
+  cta: "Support financially "
+  link: "https://pay.mbnk.biz/220527B3qkFYhRoAnf7z"
+  directions:
+    - id: 0
+      title: Offer a commercial project
+      description: Like the vast majority of Ukrainians, we lost our usual forms of income at the beginning of the war – so if you have a job that requires an experienced scientist, please contact us
+    - id: 1
+      title: Donate to a project development
+      description: Although our activities go beyond online, we continue to work in laboratories. To do this, we need more financial help than usual.
+    - id: 2
+      title: ArmUkraineNow
+      description: To continue heroically defending the world from Russian aggression, Ukraine needs a specific list of weapons. I appeal to citizens of the whole world to help convey to your governments, presidential administrations, and leaders of your countries the real needs of Ukraine, which will help stop the war.

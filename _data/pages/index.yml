@@ -46,6 +46,10 @@ en:
     motto: "Develop science with sysbio.ua 🚀 "
     description: "Find out how to support Ukrainian bioinformatics and change the future around you!"
     action: "Support us"
+  thank-you:
+    motto: "A big thank you 🚀 "
+    description: "Find out how to support Ukrainian bioinformatics and change the future around you!"
+    action: "Support us"
 ua:
   main-phrase: "Будуйте Ваш бізнес із sysbio"
   main-motto: "Ми — команда талановитих вчених, які проводять біодослідження"

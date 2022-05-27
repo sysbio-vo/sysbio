@@ -1,88 +1,54 @@
 ---
 layout: page
-title: "Support"
+title: Support
 permalink: /support
 ---
+
 {% assign page-data = site.data.pages.support[site.active_lang] %}
 
-<section id="about" class="about pb-0">
-    <div class="container">
+<section class="custom d-flex align-items-center text-center" id="hero-ua">
 
-        <div class="section-title">
-            <h2>{{ page-data.title }}</h2>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 pt-12 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <h1 data-aos="fade-up">{{ page-data.title }}</h1>
+                <h2 data-aos="fade-up" data-aos-delay="400">
+                    {{ page-data.suptitle }}</h2>
+                <div data-aos="fade-up" data-aos-delay="800">
+                    <a class="btn-get-started scrollto" href="{{page-data.link}}">{{ page-data.cta }}</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section><!-- End Hero -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row services">
+
+            {% for item in page-data.directions %}
+            <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
+                <div class="icon-box">
+                    <div class="icon"><i class="bx bx-file"></i></div>
+                    <h4 class="title"><a href="">{{ item.title }}</a></h4>
+                    <p class="description">{{ item.description }}</p>
+                </div>
+            </div>
+            {% endfor %}
         </div>
 
     </div>
 </section><!-- End About Us Section -->
-<!-- Start donate Area -->
-<section class="donate-area relative pt-0" id="donate">
-    <div class="overlay overlay-bg"></div>
+
+<section class="cta" id="cta">
     <div class="container">
-        <div class="row d-flex justify-content-end">
-            <div class="col-lg-6 col-sm-12 pb-80 header-text">
-                <h1>{{ page-data.donate }}</h1>
-                <p>
-                    {{ page-data.donate-description }}
-                </p>
-            </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-            <div class="col-lg-6 contact-left">
-                {% for item in page-data.reasons %}
-                <div class="single-info">
-                    <h4>{{ item.title }}</h4>
-                    <p>
-                        {{ item.description }}
-                    </p>
-                </div>
-                {% endfor %}
-            </div>
-            <div class="col-lg-6 contact-right">
-                <form class="booking-form" id="myForm" action="donate.php">
-                    <div class="row">
-                        <div class="col-lg-12 d-flex flex-column">
-                            <select name="type" class="app-select form-control" required>
-                                <option data-display="{{ page-data.project-title }}">{{ page-data.project-title }}</option>
-                                {% for item in page-data.projects %}
-                                <option value="1">{{ item }}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                        <div class="col-lg-6 d-flex flex-column">
-                            <input name="fname" placeholder="{{ page-data.enter-name }}" onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = '{{ page-data.enter-name }}'" class="form-control mt-20" required=""
-                                   type="text" required>
-                        </div>
-                        <div class="col-lg-6 d-flex flex-column">
-                            <input name="email" placeholder="{{ page-data.enter-email }}"
-                                   pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
-                                   onfocus="this.placeholder = ''" onblur="this.placeholder = '{{ page-data.enter-email }}'"
-                                   class="form-control mt-20" required="" type="email">
-                        </div>
-                        <div class="col-lg-12 d-flex flex-column">
-                            <input name="amound" placeholder="{{ page-data.enter-amount }}" onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = '{{ page-data.enter-amount }}'" class="form-control mt-20"
-                                   required="" type="text">
-
-                            <textarea class="form-control mt-20" name="{{ page-data.enter-message }}" placeholder="Messege"
-                                      onfocus="this.placeholder = ''" onblur="this.placeholder = '{{ page-data.enter-message }}'"
-                                      required=""></textarea>
-                        </div>
-
-                        <div class="col-lg-12 d-flex justify-content-end send-btn">
-                            <button class="submit-btn primary-btn mt-20 text-uppercase ">{{ page-data.donate }}<span
-                                    class="lnr lnr-arrow-right"></span></button>
-                        </div>
-
-                        <div class="alert-msg"></div>
-                    </div>
-                </form>
-                <p class="payment-method">
-                    We Accept : <img src="img/payment.png" alt="">
-                </p>
-            </div>
+        <div class="text-center">
+            <h2>{{ page-data.cta.motto }}</h2>
+            <h4> {{ page-data.cta.description }}</h4>
+            <a class="cta-btn" href="{{page-data.link}}">Support us</a>
         </div>
     </div>
-</section>
+</section><!-- End Cta Section -->
 
-{% include cta.html %}
+<!-- End Cta Section -->
