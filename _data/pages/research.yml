@@ -67,7 +67,7 @@ ua:
         img: "assets/img/research/3.jpg"
         project-href: "projects/project-3"
       - title: "Project 4"
-        description: "Nostrum eum sed et autem dolorum perspiciatis. Magni porro quisquam laudantium voluptatem."
+        description: "Here can be a new project!"
         img: "assets/img/research/4.jpg"
         project-href: "projects/project-4"
    read-more: "Read more"

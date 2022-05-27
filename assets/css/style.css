@@ -596,6 +596,10 @@ section {
     text-align: center;
 }
 
+.clients-new {
+    background: #fff;
+}
+
 .clients .col-lg-2 {
     display: flex;
     align-items: center;
@@ -611,6 +615,18 @@ section {
 }
 
 .clients img:hover {
+    filter: none;
+    transform: scale(1.1);
+}
+
+.events-img img{
+    filter: grayscale(100);
+    display: inline-block;
+    transition: all 0.4s ease-in-out;
+    padding: 10px 0;
+}
+
+.events-img img:hover {
     filter: none;
     transform: scale(1.1);
 }
