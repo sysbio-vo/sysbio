@@ -4,7 +4,7 @@ lang: 'en'
 title:  "Test"
 day:   2022-01-14 11:11:46 +0200
 categories: opportunities
-tags: All Opportunities 
+tags: all opportunities 
 img: assets/img/posts/2022-01-14-kau-school.png
 title: KAU Data Science School-2022
 description:  We are pleased to announce that KAU Data Science School is back!

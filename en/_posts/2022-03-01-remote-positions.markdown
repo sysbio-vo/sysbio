@@ -3,8 +3,8 @@ layout: post
 lang: 'ua'
 title:  "Test"
 day:   2022-03-01 11:11:46 +0200
-categories: StandWithUkraine
-tags: All StandWithUkraine 
+categories: standwithukraine
+tags: all standwithukraine 
 img: assets/img/posts/2022-03-01-remote-positions.png
 title: Request form for Ukrainian researchers interested to get remote research position
 description:  Questionnaire on the possibilities of remote positions due to the war

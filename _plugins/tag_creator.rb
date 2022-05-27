@@ -10,7 +10,7 @@ Jekyll::Hooks.register :posts, :post_write do |post|
 end
 
 def generate_tag_file(tag)
-  tag = tag.downcase
+#   tag = tag.downcase
   File.open("tags/#{tag}.html", "wb") do |file|
     file << "---
 layout: tag
