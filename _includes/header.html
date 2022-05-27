@@ -1,56 +1,58 @@
 <header class="fixed-top d-flex align-items-center" id="header">
-    <div class="container d-flex align-items-center justify-content-between">
+        <div class=" container d-flex align-items-center justify-content-between">
 
-        <div class="logo">
-            <a href="{{ site.url }}/">
+            <div class="logo">
+                <a href="{{ site.url }}/">
                     <img alt="" src="{{ site.baseurl }}/assets/img/logo/logo_46.png">
-            </a>
-        </div>
+                </a>
+            </div>
 
-        <nav class="navbar" id="navbar">
-            <ul>
-                {% for item in site.data.settings.menu[site.active_lang] %}
+            <nav class="navbar" id="navbar">
+                <ul>
+                    {% for item in site.data.settings.menu[site.active_lang] %}
                     {% assign baseurl = item.url | prepend: '/' %}
-                <li>
-                    <a class='
+                    <li>
+                        <a class='
                               {% if item.focus == true %}focused {% else %}nav-link{% endif %}
                               scrollto
                               {% if page.url == baseurl %}active{% endif %}'
-                       href='{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
-                        {{ item.name }}
-                    </a>
-                </li>
+                           href='{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/{{ item.url }}'>
+                            {{ item.name }}
+                        </a>
+                    </li>
 
-                {% endfor %}
-                <li class="dropdown">
-                    <a href='{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/'>
-                        <span>{{site.data.languages[site.active_lang].icon}}</span> <i class="bi bi-chevron-down"></i>
-                    </a>
-                    <ul>
-                        {% for lang in site.data.languages %}
+                    {% endfor %}
+                    <li class="dropdown">
+                        <a href='{{ site.baseurl }}{% if site.active_lang != site.default_lang %}/{{site.active_lang}}{% endif %}/'>
+                            <span>{{site.data.languages[site.active_lang].icon}}</span> <i
+                                class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul>
+                            {% for lang in site.data.languages %}
                             {% if lang[0] == site.active_lang %}
-                                {% continue %}
+                            {% continue %}
                             {% endif %}
 
-                        {% if lang[0] == site.default_lang %}
+                            {% if lang[0] == site.default_lang %}
                             <a href=" {{ site.baseurl }}{{ page.url }}">
                                 {{ lang[1].icon }}
                                 {% assign site.active_lang = lang[0] %}
                             </a>
-                        {% else %}
+                            {% else %}
                             <a href=" {{ site.baseurl }}/{{ lang[0] }}{{ page.url }}">
                                 {{ lang[1].icon }}
                                 {% assign site.active_lang = lang[0] %}
                             </a>
-                        {% endif %}
-                        {% endfor %}
+                            {% endif %}
+                            {% endfor %}
 
-                    </ul>
+                        </ul>
 
-                </li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
+                    </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
 
+        </div>
     </div>
 </header>

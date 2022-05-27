@@ -8,7 +8,7 @@ en:
     twitter: ''
     email: o.p.martsenyuk@imbg.org.ua
     linkedin: ''
-    google_scholar: ''
+    google_scholar: 'https://scholar.google.com.ua/citations?user=oePNtcEAAAAJ&hl=uk'
     profile: experimental molecular biology
   - name: Oleksandr
     surname: Lykhenko
@@ -25,20 +25,21 @@ en:
       Professor, Dr. Sci.,
        Group Leader
     photo: assets/img/team/maria-obolenska.jpg
-    twitter: ''
     email: m.obolenska@gmail.com
+    twitter: ''
+    github: ''
     linkedin: ''
-    google_scholar: ''
+    google_scholar: 'https://scholar.google.com.ua/citations?user=p6anGRgAAAAJ&hl=uk'
     profile: computational and molecular biology
     page: members/maria-obolenska
   - name: Alina
     surname: Frolova
     position: Junior Research Fellow
     photo: assets/img/team/alina-frolova.jpg
-    twitter: ''
+    twitter: 'https://twitter.com/systemnaBio'
     email: a.o.frolova@imbg.org.ua
-    linkedin: ''
-    google_scholar: ''
+    linkedin: 'https://www.linkedin.com/in/alina-frolova/'
+    google_scholar: 'https://scholar.google.com/citations?user=dbmfsLsAAAAJ&hl=en'
     profile: computational biology and bioinformatics
   - name: Maria
     surname: Chabanova
@@ -65,7 +66,7 @@ en:
     photo: assets/img/team/yurii-ryzhuk.jpg
     twitter: ''
     email: ''
-    linkedin: ''
+    linkedin: 'https://www.linkedin.com/in/yurii-ryzhuk-b13580206/'
     google_scholar: ''
     profile: molecular biology, dataing
   - name: Stanislav
@@ -91,8 +92,8 @@ en:
     position: Master's student
     photo: assets/img/team/anna-manko.jpg
     twitter: ''
-    email: ''
-    linkedin: ''
+    email: 'mankoania@gmail.com'
+    linkedin: 'https://www.linkedin.com/in/anna-manko-16b400150/'
     google_scholar: ''
     profile: computational biology and bioinformatics
   - name: Vadym

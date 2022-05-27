@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #fff;
 }
 
-.button-all-bib, .button-all-bib:focus{
+.button-all-bib, .button-all-bib:focus {
     width: 200px;
     margin: 25px auto;
 }
@@ -431,7 +431,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero-ua {
     /*height: 40vh;*/
     background: linear-gradient(0deg, #fffae6 0%, #e8f0fe 112.24%);
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 #hero-ua h1 {
@@ -566,13 +566,13 @@ section {
 }
 
 @media (min-width: 575px) {
-.section-title h2::before, .section-title h2::after {
-    content: "";
-    width: 50px;
-    height: 2px;
-    background: #6c63ff;
-    display: inline-block;
-}
+    .section-title h2::before, .section-title h2::after {
+        content: "";
+        width: 50px;
+        height: 2px;
+        background: #6c63ff;
+        display: inline-block;
+    }
 }
 
 .section-title h2::before {
@@ -1318,6 +1318,26 @@ section {
     color: #222222;
 }
 
+@media (max-width: 768px) {
+    .team .member .member-info {
+        padding: 25px 5px;
+        margin: 0;
+    }
+
+    .team .member .member-info h4 {
+        font-size: 16px;
+    }
+
+    .team .member .member-info span {
+        font-size: 10px;
+    }
+
+    .team .member .member-info p {
+        font-size: 11px;
+    }
+}
+
+
 .team .member .member-info span {
     display: block;
     font-size: 13px;
@@ -1459,7 +1479,7 @@ section {
 
 @media screen and (max-width: 1000px) {
     .publications-list {
-       width: 100%;
+        width: 100%;
     }
 }
 
@@ -1553,6 +1573,7 @@ section {
     padding: 0 25px 0 25px;
     justify-content: center;
 }
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -1870,69 +1891,70 @@ section {
     font-family: "Poppins", sans-serif;
     color: #6f787e;
 }
+
 .donate-area {
-	background: url(../img/header-bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover
+    background: url(../img/header-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
 }
 
 .donate-area .overlay-bg {
-	opacity: .9;
-	background-color: #000
+    opacity: .9;
+    background-color: #000
 }
 
 .donate-area .header-text h1 {
-	color: #000;
-	margin-bottom: 25px
+    color: #000;
+    margin-bottom: 25px
 }
 
 .donate-area .contact-left h4 {
-	color: #000;
-	margin-bottom: 10px
+    color: #000;
+    margin-bottom: 10px
 }
 
 .donate-area .contact-left .single-info {
-	margin-bottom: 30px
+    margin-bottom: 30px
 }
 
 .donate-area .contact-right .form-control {
-	border-radius: 0;
-	background-color: transparent;
-	border: 1px solid #656463;
-	color: #000;
-	font-size: 14px;
-	padding: 12px
+    border-radius: 0;
+    background-color: transparent;
+    border: 1px solid #656463;
+    color: #000;
+    font-size: 14px;
+    padding: 12px
 }
 
 .donate-area .contact-right input,
 .donate-area .contact-right textarea {
-	font-size: 14px;
-	font-weight: 200
+    font-size: 14px;
+    font-weight: 200
 }
 
 .donate-area .contact-right .option {
-	color: #222
+    color: #222
 }
 
 .donate-area .contact-right .nice-select span {
-	color: #ccc;
-	font-size: 14px;
-	font-weight: 200
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 200
 }
 
 .donate-area .contact-right textarea {
-	height: 150px
+    height: 150px
 }
 
 .donate-area .contact-right .list {
-	width: 100%
+    width: 100%
 }
 
 .donate-area .contact-right .payment-method {
-	color: #ccc;
-	margin-top: 30px
+    color: #ccc;
+    margin-top: 30px
 }
 
 /*--------------------------------------------------------------
@@ -1941,6 +1963,7 @@ section {
 .map {
     height: 180px;
 }
+
 .leaflet-container {
     height: 400px;
     width: 600px;
@@ -1955,12 +1978,12 @@ section {
 ol.bibliography {
     counter-reset: item
 }
-  
+
 ol.bibliography li {
     list-style-type: none;
     margin: 30px 0;
 }
-  
+
 ol.bibliography li:before {
     content: "[" counter(item) "] ";
     counter-increment: item;
