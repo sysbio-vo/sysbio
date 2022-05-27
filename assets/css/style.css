@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero-ua {
-    height: 40vh;
+    /*height: 40vh;*/
     background: linear-gradient(0deg, #fffae6 0%, #e8f0fe 112.24%);
     margin-top:60px;
 }
