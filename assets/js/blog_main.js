@@ -88,7 +88,7 @@
 
 	
 
-	/* var contentWayPoint = function() {
+	var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
 
@@ -122,7 +122,7 @@
 
 		} , { offset: '95%' } );
 	};
-	contentWayPoint(); */
+	contentWayPoint();
 
 
 	// magnific popup
