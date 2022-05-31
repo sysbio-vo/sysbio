@@ -60,15 +60,6 @@ en:
     linkedin: ''
     google_scholar: ''
     profile: molecular biology
-  - name: Yurii
-    surname: Ryzhuk
-    position: Master's student
-    photo: assets/img/team/yurii-ryzhuk.jpg
-    twitter: ''
-    email: ''
-    linkedin: 'https://www.linkedin.com/in/yurii-ryzhuk-b13580206/'
-    google_scholar: ''
-    profile: molecular biology, data mining
   - name: Stanislav
     surname: Zubenko
     position: PhD student
@@ -76,6 +67,15 @@ en:
     twitter: ''
     email: dantistnfs@gmail.com
     linkedin: ''
+    google_scholar: ''
+    profile: molecular biology, data mining
+  - name: Yurii
+    surname: Ryzhuk
+    position: Master's student
+    photo: assets/img/team/yurii-ryzhuk.jpg
+    twitter: ''
+    email: ''
+    linkedin: 'https://www.linkedin.com/in/yurii-ryzhuk-b13580206/'
     google_scholar: ''
     profile: molecular biology, data mining
   - name: Bohdan
@@ -196,21 +196,21 @@ ua:
     linkedin: ''
     google_scholar: ''
     profile: molecular biology
-  - name: Юрій
-    surname: Рижук
-    position: магістр
-    photo: assets/img/team/yurii-ryzhuk.jpg
-    twitter: ''
-    email: ''
-    linkedin: ''
-    google_scholar: ''
-    profile: molecular biology, data mining
   - name: Стас
     surname: Зубенко
     position: аспірант
     photo: assets/img/team/stas-zubenko.jpg
     twitter: ''
     email: dantistnfs@gmail.com
+    linkedin: ''
+    google_scholar: ''
+    profile: molecular biology, data mining
+  - name: Юрій
+    surname: Рижук
+    position: магістр
+    photo: assets/img/team/yurii-ryzhuk.jpg
+    twitter: ''
+    email: ''
     linkedin: ''
     google_scholar: ''
     profile: molecular biology, data mining
