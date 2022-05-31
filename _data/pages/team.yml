@@ -84,7 +84,7 @@ en:
     photo: assets/img/team/dmytro-goryslavets.jpg
     twitter: ''
     email: ''
-    linkedin: ''
+    linkedin: 'https://www.linkedin.com/in/dmytro-horyslavets/'
     google_scholar: ''
     profile: computational biology and bioinformatics
   - name: Anna
@@ -211,7 +211,7 @@ ua:
     photo: assets/img/team/dmytro-goryslavets.jpg
     twitter: ''
     email: ''
-    linkedin: ''
+    linkedin: 'https://www.linkedin.com/in/dmytro-horyslavets/'
     google_scholar: ''
     profile: computational biology and bioinformatics
   - name: Анна

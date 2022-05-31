@@ -58,34 +58,6 @@
 	};
 	burgerMenu();
 
-	// Click outside of offcanvass
-	var mobileMenuOutsideClick = function() {
-
-		$(document).click(function (e) {
-	    var container = $("#colorlib-aside, .js-colorlib-nav-toggle");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-
-	    	if ( $('body').hasClass('offcanvas') ) {
-
-    			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
-			
-	    	}
-	    	
-	    }
-		});
-
-		$(window).scroll(function(){
-			if ( $('body').hasClass('offcanvas') ) {
-
-    			$('body').removeClass('offcanvas');
-    			$('.js-colorlib-nav-toggle').removeClass('active');
-			
-	    	}
-		});
-
-	};
-	mobileMenuOutsideClick();
 
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
@@ -116,7 +88,7 @@
 
 	
 
-	var contentWayPoint = function() {
+	/* var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
 
@@ -150,7 +122,7 @@
 
 		} , { offset: '95%' } );
 	};
-	contentWayPoint();
+	contentWayPoint(); */
 
 
 	// magnific popup
