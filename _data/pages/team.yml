@@ -68,7 +68,7 @@ en:
     email: ''
     linkedin: 'https://www.linkedin.com/in/yurii-ryzhuk-b13580206/'
     google_scholar: ''
-    profile: molecular biology, dataing
+    profile: molecular biology, data mining
   - name: Stanislav
     surname: Zubenko
     position: PhD student
@@ -77,7 +77,16 @@ en:
     email: dantistnfs@gmail.com
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, dataing
+    profile: molecular biology, data mining
+  - name: Bohdan
+    surname: Tyschenko
+    position: Master's student
+    photo: assets/img/team/bohdan-tyschenko.png
+    twitter: ''
+    email: ''
+    linkedin: 'https://www.linkedin.com/in/bogdan-tyshchenko'
+    google_scholar: ''
+    profile: molecular biology, data mining
   - name: Dmytro
     surname: Goryslavets
     position: Master's student
@@ -114,7 +123,7 @@ en:
     email: ''
     linkedin: 'https://www.linkedin.com/in/ruslan-rodriguez-a1a11540/?originalSubdomain=ua'
     google_scholar: 'https://scholar.google.com.ua/citations?user=_UQSO7sAAAAJ&hl=uk'
-    profile: molecular biology, dataing
+    profile: molecular biology, data mining
     graduation_year: 2021
     description: ''
   - name: Bogdan
@@ -125,7 +134,7 @@ en:
     email: ''
     linkedin: 'https://www.linkedin.com/in/bogdan-tokovenko/?originalSubdomain=de'
     google_scholar: 'https://scholar.google.de/citations?user=xQbV-xEAAAAJ&hl=en'
-    profile: molecular biology, dataing
+    profile: molecular biology, data mining
     graduation_year: 2012
     description: ''
 ua:
@@ -195,7 +204,7 @@ ua:
     email: ''
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, dataing
+    profile: molecular biology, data mining
   - name: Стас
     surname: Зубенко
     position: аспірант
@@ -204,7 +213,16 @@ ua:
     email: dantistnfs@gmail.com
     linkedin: ''
     google_scholar: ''
-    profile: molecular biology, dataing
+    profile: molecular biology, data mining
+  - name: Богдан
+    surname: Тищенко
+    position: Master's student
+    photo: assets/img/team/bohdan-tyschenko.png
+    twitter: ''
+    email: ''
+    linkedin: 'https://www.linkedin.com/in/bogdan-tyshchenko'
+    google_scholar: ''
+    profile: molecular biology
   - name: Дмитро
     surname: Гориславець
     position: магістр
