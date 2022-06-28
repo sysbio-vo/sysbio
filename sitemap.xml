@@ -1,33 +1,374 @@
----
-layout: null
----
 <?xml version="1.0" encoding="UTF-8"?>
-{% comment %}<!-- Written by https://github.com/jerturowetz -->{% endcomment %}
-{% comment %}<!-- I am using hreflang attributes on a page-by-page basis so no need to include them per url here -->{% endcomment %}
+
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-{% for lang in site.languages %}
 
-    {% comment %}<!-- It would be better to use the where_exp filter in the first loop but I dont think the unless expression is supported -->{% endcomment %}
-    {% for node in site.pages %}
-        {% comment %}<!-- very lazy check to see if page is in the exclude list - this means excluded pages are not gonna be in the sitemap at all, write exceptions as necessary -->{% endcomment %}
-        {% unless site.exclude_from_localization contains node.path %}
-            {% comment %}<!-- I am assuming if there's not layout assigned, then not include the page in the sitemap, you may want to change this -->{% endcomment %}
-            {% if node.layout %}
+
+    
+    
+        
+        
+            
+            
                 <url>
-                    <loc>{% if lang == site.default_lang %}{{ node.url | absolute_url }}{% else %}{{ node.url | prepend: lang | prepend: '/' | absolute_url }}{% endif %}</loc>
+                    <loc>https://sysbio.org.ua/404.html</loc>
                 </url>
-            {% endif %}
-        {% endunless %}
-    {% endfor %}
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/blog/all/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/contacts</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/opportunities</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/blog/opportunities/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/publications</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/research</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/blog/standwithukraine/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/support</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/team</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/tools</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+        
+    
 
-    {% comment %}<!-- This loops through all site collections including posts -->{% endcomment %}
-    {% for collection in site.collections %}
-        {% for node in site[collection.label] %}
+    
+    
+        
             <url>
-                <loc>{% if lang == site.default_lang %}{{ node.url | absolute_url }}{% else %}{{ node.url | prepend: lang | prepend: '/' | absolute_url }}{% endif %}</loc>
+                <loc>https://sysbio.org.ua/members/maria-obolenska/</loc>
             </url>
-        {% endfor %}
-    {% endfor %}
+        
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/en/opportunities/2022/05/26/kau-summer-school.html</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/en/standwithukraine/2022/03/01/remote-positions.html</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/en/opportunities/2022/01/14/kau-school.html</loc>
+            </url>
+        
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/projects/project-1/</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/projects/project-2/</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/projects/project-3/</loc>
+            </url>
+        
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/tools/cotrasif/</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/tools/igea/</loc>
+            </url>
+        
+    
 
-{% endfor %}
+
+
+    
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/404.html</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/blog/all/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/contacts</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/opportunities</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/blog/opportunities/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/publications</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/research</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/blog/standwithukraine/</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/support</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/team</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+                <url>
+                    <loc>https://sysbio.org.ua/ua/tools</loc>
+                </url>
+            
+        
+    
+        
+        
+            
+            
+        
+    
+
+    
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/members/maria-obolenska/</loc>
+            </url>
+        
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/en/opportunities/2022/05/26/kau-summer-school.html</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/en/standwithukraine/2022/03/01/remote-positions.html</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/en/opportunities/2022/01/14/kau-school.html</loc>
+            </url>
+        
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/projects/project-1/</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/projects/project-2/</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/projects/project-3/</loc>
+            </url>
+        
+    
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/tools/cotrasif/</loc>
+            </url>
+        
+            <url>
+                <loc>https://sysbio.org.ua/ua/tools/igea/</loc>
+            </url>
+        
+    
+
+
 </urlset>
